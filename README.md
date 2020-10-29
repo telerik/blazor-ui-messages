@@ -16,6 +16,16 @@ To submit a pull request, you should first fork the repo.
 
 Make sure that you have read and signed the [Blazor UI Contribution License Agreement (CLA)]() first.
 
+## Notes
+
+The Telerik UI for Blazor suite evolves quickly, with many new features and components being added constantly. 
+
+This means that translations created at a given point in time may not contain all strings used in newer versions, so you may need to amend them.
+
+If you do so, feel free to contribute your work.
+
+You can find an up-to-date list of the used strings in the demos solution we provide. Telerik maintains the main `Messages.resx` file to have the full list with each release.
+
 ## See Also
 
 This repository does not contain the actual source code of the components, or the demos application.
