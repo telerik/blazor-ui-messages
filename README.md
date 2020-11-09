@@ -14,7 +14,7 @@ You can also find sample projects in the <a href="https://github.com/telerik/bla
 
 To submit a pull request, you should first fork the repo.
 
-Make sure that you have read and signed the [Blazor UI Contribution License Agreement (CLA)]() first.
+Make sure that you have read and signed the [Blazor UI Contribution License Agreement (CLA)](https://forms.office.com/Pages/ResponsePage.aspx?id=Z2om2-DLJk2uGtBYH-A1NbWxVqugKN5DvVp8I-1AgOBURFBVSkwyMlA1TkFDVFdMNU1aM1o1UlZQOC4u) first.
 
 ## Notes
 
