@@ -1,0 +1,2 @@
+Initial version taken from https://github.com/SeppPenner/Telerik.Ui.for.Blazor.German.Resources
+based on the following StackOverflow thread https://stackoverflow.com/questions/59785921/how-can-you-localize-telerik-ui-for-blazor
