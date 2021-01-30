@@ -510,6 +510,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>Absteigend sortieren</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>In aufsteigender Reihenfolge sortiert</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>In absteigender Reihenfolge sortiert</value>
+  </data>
   <data name="Grid_Update" xml:space="preserve">
     <value>Updaten</value>
   </data>
@@ -824,6 +830,12 @@
   </data>
   <data name="TreeList_Search" xml:space="preserve">
     <value>Suchen...</value>
+  </data>
+  <data name="TreeList_SortedAscending" xml:space="preserve">
+    <value>In aufsteigender Reihenfolge sortiert</value>
+  </data>
+  <data name="TreeList_SortedDescending" xml:space="preserve">
+    <value>In absteigender Reihenfolge sortiert</value>
   </data>
   <data name="TreeList_Update" xml:space="preserve">
     <value>Ändern</value>
