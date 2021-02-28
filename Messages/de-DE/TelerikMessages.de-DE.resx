@@ -483,6 +483,12 @@
   <data name="Filter_StringStartsWith" xml:space="preserve">
     <value>Startet mit</value>
   </data>
+  <data name="Form_Clear" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Form_Submit" xml:space="preserve">
+    <value>Absenden</value>
+  </data>
   <data name="Grid_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
