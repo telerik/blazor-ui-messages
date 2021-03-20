@@ -4,7 +4,7 @@
 
 This repo contains sample localization messages for the Telerik UI for Blazor component suite.
 
-You can read more on how localization works for them in the dedicated <a href="https://docs.telerik.com/blazor-ui/globalization/localization" target="_blank">Localization</a> documentation article - it explains how to add the necessary localization service in your application.
+You can read more on how localization works for them in the dedicated <a href="https://docs.telerik.com/blazor-ui/globalization/localization" target="_blank">Localization</a> documentation article - it explains how to add the necessary localization service in your application and how to find the up-to-date list of keys from our demos.
 
 You can also find sample projects in the <a href="https://github.com/telerik/blazor-ui/tree/master/common/localization" target="_blank">Telerik UI for Blazor Sample Projects repo: Localization</a>.
 
