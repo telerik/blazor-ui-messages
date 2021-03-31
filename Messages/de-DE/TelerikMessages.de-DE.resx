@@ -210,6 +210,12 @@
   <data name="DateTimePicker_Time" xml:space="preserve">
     <value>Zeit</value>
   </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Dialog_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
   <data name="DropDownList_NoData" xml:space="preserve">
     <value>Keine Daten</value>
   </data>
