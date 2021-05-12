@@ -507,6 +507,9 @@
   <data name="Grid_Delete" xml:space="preserve">
     <value>Löschen</value>
   </data>
+  <data name="Grid_DragItems" xml:space="preserve">
+    <value>Elemente ausgewählt</value>
+  </data>
   <data name="Grid_Edit" xml:space="preserve">
     <value>Editieren</value>
   </data>
@@ -839,6 +842,9 @@
   </data>
   <data name="TreeList_Edit" xml:space="preserve">
     <value>Bearbeiten</value>
+  </data>
+  <data name="TreeList_NoRecords" xml:space="preserve">
+    <value>Keine Daten verfügbar.</value>
   </data>
   <data name="TreeList_Search" xml:space="preserve">
     <value>Suchen...</value>
