@@ -53,6 +53,7 @@
     value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
+
     mimetype: application/x-microsoft.net.object.bytearray.base64
     value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
@@ -143,9 +144,6 @@
   <data name="Filter_Filter" xml:space="preserve">
     <value>Filtrér</value>
   </data>
-  <data name="Filter_Info" xml:space="preserve">
-    <value>Vis rækker med værdi som:</value>
-  </data>
   <data name="Filter_IsFalse" xml:space="preserve">
     <value>er falsk</value>
   </data>
@@ -194,12 +192,6 @@
   <data name="Grid_Cancel" xml:space="preserve">
     <value>Afbryd</value>
   </data>
-  <data name="Grid_CancelChanges" xml:space="preserve">
-    <value>Fortryd ændringer</value>
-  </data>
-  <data name="Grid_Confirmation" xml:space="preserve">
-    <value>Er du sikker på du vil slette denne række?</value>
-  </data>
   <data name="Grid_Create" xml:space="preserve">
     <value>Tilføj ny række</value>
   </data>
@@ -208,12 +200,6 @@
   </data>
   <data name="Grid_Edit" xml:space="preserve">
     <value>Rediger</value>
-  </data>
-  <data name="Grid_SaveChanges" xml:space="preserve">
-    <value>Gem ændringer</value>
-  </data>
-  <data name="Grid_Select" xml:space="preserve">
-    <value>Vælg</value>
   </data>
   <data name="Grid_Update" xml:space="preserve">
     <value>Opdater</value>
@@ -260,9 +246,6 @@
   <data name="Filter_SelectValue" xml:space="preserve">
     <value>-Vælg værdi-</value>
   </data>
-  <data name="Grid_Columns" xml:space="preserve">
-    <value>Kolonner</value>
-  </data>
   <data name="Grid_SortAscending" xml:space="preserve">
     <value>Sorter stigende</value>
   </data>
@@ -272,50 +255,11 @@
   <data name="Filter_Cancel" xml:space="preserve">
     <value>Afbryd</value>
   </data>
-  <data name="Filter_Operator" xml:space="preserve">
-    <value>Operator</value>
-  </data>
-  <data name="Filter_AdditionalOperator" xml:space="preserve">
-    <value>Yderligere operator</value>
-  </data>
-  <data name="Filter_Value" xml:space="preserve">
-    <value>Værdi</value>
-  </data>
-  <data name="Filter_AdditionalValue" xml:space="preserve">
-    <value>Yderligere værdi</value>
-  </data>
-  <data name="Filter_Logic" xml:space="preserve">
-    <value>Filtres logik</value>
-  </data>
   <data name="Grid_CancelDelete" xml:space="preserve">
     <value>Afbryd</value>
   </data>
-  <data name="Grid_ColumnSettings" xml:space="preserve">
-    <value>Kolonne indstillinger</value>
-  </data>
-  <data name="Grid_ConfirmDelete" xml:space="preserve">
-    <value>Slet</value>
-  </data>
-  <data name="Grid_CheckAll" xml:space="preserve">
-    <value>Vælg alle</value>
-  </data>
-  <data name="Grid_Done" xml:space="preserve">
-    <value>Udført</value>
-  </data>
   <data name="Pager_MorePages" xml:space="preserve">
     <value>Flere sider</value>
-  </data>
-  <data name="Grid_Lock" xml:space="preserve">
-    <value>Lås</value>
-  </data>
-  <data name="Grid_Unlock" xml:space="preserve">
-    <value>Lås op</value>
-  </data>
-  <data name="Grid_Excel" xml:space="preserve">
-    <value>Exporter til Excel</value>
-  </data>
-  <data name="Grid_Pdf" xml:space="preserve">
-    <value>Exporter til PDF</value>
   </data>
   <data name="Filter_DateIsNotNull" xml:space="preserve">
     <value>Er udfyldt</value>
@@ -349,12 +293,6 @@
   </data>
   <data name="Filter_Search" xml:space="preserve">
     <value>Søg</value>
-  </data>
-  <data name="Filter_SelectedItemsFormat" xml:space="preserve">
-    <value>{0} valgte rækker</value>
-  </data>
-  <data name="Filter_Title" xml:space="preserve">
-    <value>Vis rækker med værdi der:</value>
   </data>
   <data name="Filter_StringIsNotNullOrEmpty" xml:space="preserve">
     <value>Har værdi</value>
@@ -498,7 +436,7 @@
     <value>hele dagen</value>
   </data>
   <data name="Scheduler_Editor_EndTimeRequiredValidationMessage" xml:space="preserve">
-    <value>Sluttid er krævet</value>
+    <value>Sluttid er krævet.</value>
   </data>
   <data name="Scheduler_Editor_EndTimeValueValidationMessage" xml:space="preserve">
     <value>Sluttid skal ligge efter starttid.</value>
@@ -516,7 +454,7 @@
     <value>Gå til næste periode</value>
   </data>
   <data name="Calendar_GoToPrevious" xml:space="preserve">
-    <value>¨Gå til forrige periode</value>
+    <value>Gå til forrige periode</value>
   </data>
   <data name="Calendar_Choose_Decade" xml:space="preserve">
     <value>Vælg et ti-år</value>
@@ -538,5 +476,437 @@
   </data>
   <data name="MultiSelect_NoData" xml:space="preserve">
     <value>Ingen data</value>
+  </data>
+  <data name="Grid_NoRecords" xml:space="preserve">
+    <value>Ingen rækker.</value>
+  </data>
+  <data name="Aggregate_Average" xml:space="preserve">
+    <value>Gennemsnit</value>
+  </data>
+  <data name="Aggregate_Count" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="Aggregate_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="Aggregate_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Aggregate_Sum" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="ColumnMenu_Apply" xml:space="preserve">
+    <value>Anvend</value>
+  </data>
+  <data name="ColumnMenu_ColumnMenu" xml:space="preserve">
+    <value>Kolonnemenu</value>
+  </data>
+  <data name="ColumnMenu_Columns" xml:space="preserve">
+    <value>Kolonner</value>
+  </data>
+  <data name="ColumnMenu_Lock" xml:space="preserve">
+    <value>Lås</value>
+  </data>
+  <data name="ColumnMenu_SortAscending" xml:space="preserve">
+    <value>Sorter stigende</value>
+  </data>
+  <data name="ColumnMenu_SortDescending" xml:space="preserve">
+    <value>Sorter faldende</value>
+  </data>
+  <data name="ColumnMenu_Unlock" xml:space="preserve">
+    <value>Lås op</value>
+  </data>
+  <data name="ColumnMenu_Reset" xml:space="preserve">
+    <value>Nulstil</value>
+  </data>
+  <data name="DateInput_ParsingErrorMessage" xml:space="preserve">
+    <value>Datoen er ikke i korrekt format. Indtast valid dato.</value>
+  </data>
+  <data name="DateInput_ValidationErrorMessage" xml:space="preserve">
+    <value>Datoen er ikke valid.</value>
+  </data>
+  <data name="DateRangePicker_End" xml:space="preserve">
+    <value>Slut</value>
+  </data>
+  <data name="DateRangePicker_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>Afbryd</value>
+  </data>
+  <data name="Dialog_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Editor_AddColumnLeft" xml:space="preserve">
+    <value>Tilføj kolonne til venstre</value>
+  </data>
+  <data name="Editor_AddColumnRight" xml:space="preserve">
+    <value>Tilføj kolonne til højre</value>
+  </data>
+  <data name="Editor_AddRowAbove" xml:space="preserve">
+    <value>Tilføj række over</value>
+  </data>
+  <data name="Editor_AddRowBelow" xml:space="preserve">
+    <value>Tilføj række under</value>
+  </data>
+  <data name="Editor_AlignCenter" xml:space="preserve">
+    <value>Centrer tekst</value>
+  </data>
+  <data name="Editor_AlignJustify" xml:space="preserve">
+    <value>Juster</value>
+  </data>
+  <data name="Editor_AlignLeft" xml:space="preserve">
+    <value>Venstre-juster</value>
+  </data>
+  <data name="Editor_AlignRight" xml:space="preserve">
+    <value>Højre-juster</value>
+  </data>
+  <data name="Editor_BackColor" xml:space="preserve">
+    <value>Baggrundsfarve</value>
+  </data>
+  <data name="Editor_Bold" xml:space="preserve">
+    <value>Fed</value>
+  </data>
+  <data name="Editor_CreateLink" xml:space="preserve">
+    <value>Indsæt link</value>
+  </data>
+  <data name="Editor_CreateTable" xml:space="preserve">
+    <value>Opret tabel</value>
+  </data>
+  <data name="Editor_DeleteColumn" xml:space="preserve">
+    <value>Slet kolonne</value>
+  </data>
+  <data name="Editor_DeleteRow" xml:space="preserve">
+    <value>Slet række</value>
+  </data>
+  <data name="Editor_DialogCancel" xml:space="preserve">
+    <value>Afbryd</value>
+  </data>
+  <data name="Editor_DialogInsert" xml:space="preserve">
+    <value>Indsæt</value>
+  </data>
+  <data name="Editor_DialogUpdate" xml:space="preserve">
+    <value>Opdater</value>
+  </data>
+  <data name="Editor_FontFamily" xml:space="preserve">
+    <value>Skrifttypenavn</value>
+  </data>
+  <data name="Editor_FontSize" xml:space="preserve">
+    <value>Skrifttype størrelse</value>
+  </data>
+  <data name="Editor_ForeColor" xml:space="preserve">
+    <value>Farve</value>
+  </data>
+  <data name="Editor_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="Editor_ImageAltText" xml:space="preserve">
+    <value>Alternativ tekst:</value>
+  </data>
+  <data name="Editor_ImageHeight" xml:space="preserve">
+    <value>Højde:</value>
+  </data>
+  <data name="Editor_ImageWebAddress" xml:space="preserve">
+    <value>Web adresse:</value>
+  </data>
+  <data name="Editor_ImageWidth" xml:space="preserve">
+    <value>Bredde:</value>
+  </data>
+  <data name="Editor_Indent" xml:space="preserve">
+    <value>Ryk ind</value>
+  </data>
+  <data name="Editor_InsertFile" xml:space="preserve">
+    <value>Indsæt fil</value>
+  </data>
+  <data name="Editor_InsertHtml" xml:space="preserve">
+    <value>Indsæt HTML</value>
+  </data>
+  <data name="Editor_InsertImage" xml:space="preserve">
+    <value>Indsæt billede</value>
+  </data>
+  <data name="Editor_InsertOrderedList" xml:space="preserve">
+    <value>Indsæt sorteret liste</value>
+  </data>
+  <data name="Editor_InsertUnorderedList" xml:space="preserve">
+    <value>Indsæt usorteret liste</value>
+  </data>
+  <data name="Editor_Italic" xml:space="preserve">
+    <value>Kursiv</value>
+  </data>
+  <data name="Editor_LinkOpenNewWindow" xml:space="preserve">
+    <value>Åben i nyt vindue</value>
+  </data>
+  <data name="Editor_LinkText" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="Editor_LinkTitle" xml:space="preserve">
+    <value>Titel:</value>
+  </data>
+  <data name="Editor_LinkWebAddress" xml:space="preserve">
+    <value>Web adresse:</value>
+  </data>
+  <data name="Editor_Outdent" xml:space="preserve">
+    <value>Ryk ud</value>
+  </data>
+  <data name="Editor_Redo" xml:space="preserve">
+    <value>Gentag</value>
+  </data>
+  <data name="Editor_Strikethrough" xml:space="preserve">
+    <value>Gennemstregning</value>
+  </data>
+  <data name="Editor_Subscript" xml:space="preserve">
+    <value>Sænket skrift</value>
+  </data>
+  <data name="Editor_Superscript" xml:space="preserve">
+    <value>Hævet skrift</value>
+  </data>
+  <data name="Editor_Underline" xml:space="preserve">
+    <value>Understreg</value>
+  </data>
+  <data name="Editor_Undo" xml:space="preserve">
+    <value>Fortryd</value>
+  </data>
+  <data name="Editor_Unlink" xml:space="preserve">
+    <value>Fjern link</value>
+  </data>
+  <data name="Editor_ViewHtml" xml:space="preserve">
+    <value>Vis HTML</value>
+  </data>
+  <data name="Filter_NoData" xml:space="preserve">
+    <value>Ingen data</value>
+  </data>
+  <data name="Filter_SelectAll" xml:space="preserve">
+    <value>Vælg alle</value>
+  </data>
+  <data name="Form_Clear" xml:space="preserve">
+    <value>Ryd</value>
+  </data>
+  <data name="Form_Submit" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Grid_DragItems" xml:space="preserve">
+    <value>rækker valgt</value>
+  </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>Sorteret i stigende orden</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>Sorteret i faldende orden</value>
+  </data>
+  <data name="Optional_Label" xml:space="preserve">
+    <value>Valgfri</value>
+  </data>
+  <data name="Scheduler_Editor_Repeat" xml:space="preserve">
+    <value>Gentag</value>
+  </data>
+  <data name="Scheduler_Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteRecurring" xml:space="preserve">
+    <value>Vil du slette den ene forekomst eller hele serien?</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteWindowOccurrence" xml:space="preserve">
+    <value>Slet denne forekomst</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteWindowSeries" xml:space="preserve">
+    <value>Slet serien</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteWindowTitle" xml:space="preserve">
+    <value>Slet gentagen aftale</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Daily_Interval" xml:space="preserve">
+    <value> dag(e)</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Daily_RepeatEvery" xml:space="preserve">
+    <value>Gentag hver</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_After" xml:space="preserve">
+    <value>Efter </value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_Label" xml:space="preserve">
+    <value>Slut</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_Never" xml:space="preserve">
+    <value>Aldrig</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_Occurrence" xml:space="preserve">
+    <value> forekomst(er)</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_On" xml:space="preserve">
+    <value>På </value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Daily" xml:space="preserve">
+    <value>Daglig</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Monthly" xml:space="preserve">
+    <value>Månedlig</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Never" xml:space="preserve">
+    <value>Aldrig</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Weekly" xml:space="preserve">
+    <value>Ugentlig</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Yearly" xml:space="preserve">
+    <value>Årlig</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_Day" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_Interval" xml:space="preserve">
+    <value>måned(er)</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_RepeatEvery" xml:space="preserve">
+    <value>Gentag hver</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_RepeatOn" xml:space="preserve">
+    <value>Gentag på</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_First" xml:space="preserve">
+    <value>første</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Fourth" xml:space="preserve">
+    <value>fjerde</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Last" xml:space="preserve">
+    <value>sidste</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Second" xml:space="preserve">
+    <value>anden</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Third" xml:space="preserve">
+    <value>tredje</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekdays_Day" xml:space="preserve">
+    <value>dag</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekdays_Weekday" xml:space="preserve">
+    <value>hverdag</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekdays_Weekend" xml:space="preserve">
+    <value>weekend dag</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekly_Interval" xml:space="preserve">
+    <value>uge(r)</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekly_RepeatEvery" xml:space="preserve">
+    <value>Gentag hver</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekly_RepeatOn" xml:space="preserve">
+    <value>Gentag på</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_Interval" xml:space="preserve">
+    <value>år</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_Of" xml:space="preserve">
+    <value>af</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_RepeatEvery" xml:space="preserve">
+    <value>Gentag hver</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_RepeatOn" xml:space="preserve">
+    <value>Gentag på</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditRecurring" xml:space="preserve">
+    <value>Vil du redigere denne ene forekomst eller hele serien?</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowOccurrence" xml:space="preserve">
+    <value>Rediger denne forekomst</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowSeries" xml:space="preserve">
+    <value>Rediger serien</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowTitle" xml:space="preserve">
+    <value>Rediger Gentagen Aftale</value>
+  </data>
+  <data name="Slider_Decrease" xml:space="preserve">
+    <value>Formindsk</value>
+  </data>
+  <data name="Slider_Increase" xml:space="preserve">
+    <value>Forøg</value>
+  </data>
+  <data name="Switch_OffLabel" xml:space="preserve">
+    <value>Fra</value>
+  </data>
+  <data name="Switch_OnLabel" xml:space="preserve">
+    <value>Til</value>
+  </data>
+  <data name="TreeList_Cancel" xml:space="preserve">
+    <value>Afbryd</value>
+  </data>
+  <data name="TreeList_Create" xml:space="preserve">
+    <value>Tilføj ny række</value>
+  </data>
+  <data name="TreeList_Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="TreeList_Edit" xml:space="preserve">
+    <value>Rediger</value>
+  </data>
+  <data name="TreeList_NoRecords" xml:space="preserve">
+    <value>Ingen data tilgængelig.</value>
+  </data>
+  <data name="TreeList_Search" xml:space="preserve">
+    <value>Søg...</value>
+  </data>
+  <data name="TreeList_SortedAscending" xml:space="preserve">
+    <value>Sorteret i stigende orden</value>
+  </data>
+  <data name="TreeList_SortedDescending" xml:space="preserve">
+    <value>Sorteret i faldende orden</value>
+  </data>
+  <data name="TreeList_Update" xml:space="preserve">
+    <value>Opdater</value>
+  </data>
+  <data name="Upload_Cancel" xml:space="preserve">
+    <value>Afbryd</value>
+  </data>
+  <data name="Upload_Clear" xml:space="preserve">
+    <value>Ryd</value>
+  </data>
+  <data name="Upload_FileStatusFailed" xml:space="preserve">
+    <value>Filen kunne ikke uploades.</value>
+  </data>
+  <data name="Upload_FileStatusUploaded" xml:space="preserve">
+    <value>Filen er uploadet.</value>
+  </data>
+  <data name="Upload_HeaderStatusUploaded" xml:space="preserve">
+    <value>Færdig</value>
+  </data>
+  <data name="Upload_HeaderStatusUploading" xml:space="preserve">
+    <value>Uploader...</value>
+  </data>
+  <data name="Upload_InvalidFileExtension" xml:space="preserve">
+    <value>Filtypen er ikke tilladt.</value>
+  </data>
+  <data name="Upload_InvalidMaxFileSize" xml:space="preserve">
+    <value>Filen er for stor.</value>
+  </data>
+  <data name="Upload_InvalidMinFileSize" xml:space="preserve">
+    <value>Filen er for lille.</value>
+  </data>
+  <data name="Upload_Remove" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
+  <data name="Upload_Retry" xml:space="preserve">
+    <value>Prøv igen</value>
+  </data>
+  <data name="Upload_SelectFiles" xml:space="preserve">
+    <value>Vælg filer...</value>
+  </data>
+  <data name="Upload_UploadFiles" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Wizard_Done" xml:space="preserve">
+    <value>Færdig</value>
+  </data>
+  <data name="Wizard_Next" xml:space="preserve">
+    <value>Næste</value>
+  </data>
+  <data name="Wizard_Pager" xml:space="preserve">
+    <value>Trin {0} af {1}</value>
+  </data>
+  <data name="Wizard_Previous" xml:space="preserve">
+    <value>Forrige</value>
   </data>
 </root>
