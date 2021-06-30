@@ -24,7 +24,9 @@ This means that translations created at a given point in time may not contain al
 
 If you do so, feel free to contribute your work.
 
-You can find an up-to-date list of the used strings in the demos solution we provide. Telerik maintains the main `Messages.resx` file to have the full list with each release.
+You can find an up-to-date list of the used strings in the demos solution we provide. Telerik maintains the main `TelerikMessages.resx` file to have the full list with each release.
+
+![screenshot of the messages files path](messages-path-screenshot.png)
 
 ## See Also
 
