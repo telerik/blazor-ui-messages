@@ -24,7 +24,9 @@ This means that translations created at a given point in time may not contain al
 
 If you do so, feel free to contribute your work.
 
-You can find an up-to-date list of the used strings in the demos solution we provide. Telerik maintains the main `Messages.resx` file to have the full list with each release.
+You can find an up-to-date list of the used strings in our [API documentation](https://docs.telerik.com/blazor-ui/api/Telerik.Blazor.Resources.Messages) and the [offline version](https://www.telerik.com/account/my-downloads) of our [Demo solution](http://demos.telerik.com/blazor-ui/). Telerik maintains the main`TelerikMessages.resx` file (in English) to have the full list with each release.
+
+![screenshot of the messages files path](messages-path-screenshot.png)
 
 ## See Also
 
