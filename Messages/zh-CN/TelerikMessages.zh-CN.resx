@@ -117,98 +117,278 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Grid_Create" xml:space="preserve">
-    <value>插入</value>
+  <data name="Aggregate_Average" xml:space="preserve">
+    <value>平均</value>
   </data>
-  <data name="Grid_Delete" xml:space="preserve">
-    <value>删除</value>
+  <data name="Aggregate_Count" xml:space="preserve">
+    <value>计次</value>
   </data>
-  <data name="Grid_Cancel" xml:space="preserve">
+  <data name="Aggregate_Max" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="Aggregate_Min" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="Aggregate_Sum" xml:space="preserve">
+    <value>求和</value>
+  </data>
+  <data name="AutoComplete_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="AutoComplete_NoData" xml:space="preserve">
+    <value>无数据</value>
+  </data>
+  <data name="Calendar_Choose_Decade" xml:space="preserve">
+    <value>按十年选择</value>
+  </data>
+  <data name="Calendar_Choose_Month" xml:space="preserve">
+    <value>按月选择</value>
+  </data>
+  <data name="Calendar_Choose_Year" xml:space="preserve">
+    <value>按年选择</value>
+  </data>
+  <data name="Calendar_GoToNext" xml:space="preserve">
+    <value>跳转到下个周期</value>
+  </data>
+  <data name="Calendar_GoToPrevious" xml:space="preserve">
+    <value>跳转到上个周期</value>
+  </data>
+  <data name="Calendar_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="ColumnMenu_Apply" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="ColumnMenu_ColumnMenu" xml:space="preserve">
+    <value>列菜单</value>
+  </data>
+  <data name="ColumnMenu_Columns" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="ColumnMenu_Lock" xml:space="preserve">
+    <value>锁定</value>
+  </data>
+  <data name="ColumnMenu_Reset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="ColumnMenu_SortAscending" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="ColumnMenu_SortDescending" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="ColumnMenu_Unlock" xml:space="preserve">
+    <value>解锁</value>
+  </data>
+  <data name="ComboBox_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="ComboBox_NoData" xml:space="preserve">
+    <value>无数据</value>
+  </data>
+  <data name="DateInput_ParsingErrorMessage" xml:space="preserve">
+    <value>无法解析日期格式，请输入正确的日期格式。</value>
+  </data>
+  <data name="DateInput_ValidationErrorMessage" xml:space="preserve">
+    <value>日期无效。</value>
+  </data>
+  <data name="DateRangePicker_End" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="DateRangePicker_Start" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="DateTimePicker_Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
-  <data name="Grid_Update" xml:space="preserve">
+  <data name="DateTimePicker_Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="DateTimePicker_Set" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="DateTimePicker_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Dialog_Ok" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="DropDownList_NoData" xml:space="preserve">
+    <value>无数据</value>
+  </data>
+  <data name="Editor_AddColumnLeft" xml:space="preserve">
+    <value>在左侧插入列</value>
+  </data>
+  <data name="Editor_AddColumnRight" xml:space="preserve">
+    <value>在右侧插入列</value>
+  </data>
+  <data name="Editor_AddRowAbove" xml:space="preserve">
+    <value>在上方插入行</value>
+  </data>
+  <data name="Editor_AddRowBelow" xml:space="preserve">
+    <value>在下方插入行</value>
+  </data>
+  <data name="Editor_AlignCenter" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="Editor_AlignJustify" xml:space="preserve">
+    <value>两端对齐</value>
+  </data>
+  <data name="Editor_AlignLeft" xml:space="preserve">
+    <value>左对齐</value>
+  </data>
+  <data name="Editor_AlignRight" xml:space="preserve">
+    <value>右对齐</value>
+  </data>
+  <data name="Editor_BackColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="Editor_Bold" xml:space="preserve">
+    <value>加粗</value>
+  </data>
+  <data name="Editor_CreateLink" xml:space="preserve">
+    <value>插入超链接</value>
+  </data>
+  <data name="Editor_CreateTable" xml:space="preserve">
+    <value>创建表格</value>
+  </data>
+  <data name="Editor_DeleteColumn" xml:space="preserve">
+    <value>删除列</value>
+  </data>
+  <data name="Editor_DeleteRow" xml:space="preserve">
+    <value>删除行</value>
+  </data>
+  <data name="Editor_DialogCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Editor_DialogInsert" xml:space="preserve">
+    <value>插入</value>
+  </data>
+  <data name="Editor_DialogUpdate" xml:space="preserve">
     <value>更新</value>
   </data>
-  <data name="Grid_Edit" xml:space="preserve">
-    <value>编辑</value>
+  <data name="Editor_FontFamily" xml:space="preserve">
+    <value>字体</value>
   </data>
-  <data name="Grid_Select" xml:space="preserve">
-    <value>选择</value>
+  <data name="Editor_FontSize" xml:space="preserve">
+    <value>字号</value>
   </data>
-  <data name="Pager_Page" xml:space="preserve">
-    <value>页</value>
+  <data name="Editor_ForeColor" xml:space="preserve">
+    <value>字体颜色</value>
   </data>
-  <data name="Pager_Display" xml:space="preserve">
-    <value>显示条目 {0} - {1} 共 {2}</value>
+  <data name="Editor_Format" xml:space="preserve">
+    <value>格式</value>
   </data>
-  <data name="Pager_Of" xml:space="preserve">
-    <value>共 {0}</value>
+  <data name="Editor_ImageAltText" xml:space="preserve">
+    <value>说明文本：</value>
   </data>
-  <data name="Filter_Filter" xml:space="preserve">
-    <value>过滤</value>
+  <data name="Editor_ImageHeight" xml:space="preserve">
+    <value>高度：</value>
+  </data>
+  <data name="Editor_ImageWebAddress" xml:space="preserve">
+    <value>Web地址：</value>
+  </data>
+  <data name="Editor_ImageWidth" xml:space="preserve">
+    <value>宽度：</value>
+  </data>
+  <data name="Editor_Indent" xml:space="preserve">
+    <value>增加缩进</value>
+  </data>
+  <data name="Editor_InsertFile" xml:space="preserve">
+    <value>插入文件</value>
+  </data>
+  <data name="Editor_InsertHtml" xml:space="preserve">
+    <value>插入HTML</value>
+  </data>
+  <data name="Editor_InsertImage" xml:space="preserve">
+    <value>插入图片</value>
+  </data>
+  <data name="Editor_InsertOrderedList" xml:space="preserve">
+    <value>插入编号</value>
+  </data>
+  <data name="Editor_InsertUnorderedList" xml:space="preserve">
+    <value>插入项目符号</value>
+  </data>
+  <data name="Editor_Italic" xml:space="preserve">
+    <value>倾斜</value>
+  </data>
+  <data name="Editor_LinkOpenNewWindow" xml:space="preserve">
+    <value>在新窗口打开链接</value>
+  </data>
+  <data name="Editor_LinkText" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Editor_LinkTitle" xml:space="preserve">
+    <value>标题：</value>
+  </data>
+  <data name="Editor_LinkWebAddress" xml:space="preserve">
+    <value>Web地址：</value>
+  </data>
+  <data name="Editor_Outdent" xml:space="preserve">
+    <value>减少缩进</value>
+  </data>
+  <data name="Editor_Redo" xml:space="preserve">
+    <value>重复</value>
+  </data>
+  <data name="Editor_Strikethrough" xml:space="preserve">
+    <value>删除线</value>
+  </data>
+  <data name="Editor_Subscript" xml:space="preserve">
+    <value>下标</value>
+  </data>
+  <data name="Editor_Superscript" xml:space="preserve">
+    <value>上标</value>
+  </data>
+  <data name="Editor_Underline" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="Editor_Undo" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+  <data name="Editor_Unlink" xml:space="preserve">
+    <value>删除超链接</value>
+  </data>
+  <data name="Editor_ViewHtml" xml:space="preserve">
+    <value>查看HTML</value>
+  </data>
+  <data name="Filter_All" xml:space="preserve">
+    <value>(全部)</value>
   </data>
   <data name="Filter_And" xml:space="preserve">
     <value>并且</value>
   </data>
+  <data name="Filter_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
   <data name="Filter_Clear" xml:space="preserve">
-    <value>清除过滤</value>
+    <value>取消筛选</value>
   </data>
   <data name="Filter_DateIsEqualTo" xml:space="preserve">
     <value>等于</value>
   </data>
-  <data name="Filter_DateIsGreaterThanOrEqualTo" xml:space="preserve">
-    <value>大于或等于</value>
-  </data>
   <data name="Filter_DateIsGreaterThan" xml:space="preserve">
     <value>大于</value>
   </data>
-  <data name="Filter_DateIsLessThanOrEqualTo" xml:space="preserve">
-    <value>小于或等于</value>
+  <data name="Filter_DateIsGreaterThanOrEqualTo" xml:space="preserve">
+    <value>大于或等于</value>
   </data>
   <data name="Filter_DateIsLessThan" xml:space="preserve">
     <value>小于</value>
   </data>
+  <data name="Filter_DateIsLessThanOrEqualTo" xml:space="preserve">
+    <value>小于或等于</value>
+  </data>
   <data name="Filter_DateIsNotEqualTo" xml:space="preserve">
     <value>不等于</value>
   </data>
-  <data name="Filter_NumberIsEqualTo" xml:space="preserve">
-    <value>等于</value>
+  <data name="Filter_DateIsNotNull" xml:space="preserve">
+    <value>不为空</value>
   </data>
-  <data name="Filter_NumberIsGreaterThanOrEqualTo" xml:space="preserve">
-    <value>大于或等于</value>
-  </data>
-  <data name="Filter_NumberIsGreaterThan" xml:space="preserve">
-    <value>大于</value>
-  </data>
-  <data name="Filter_NumberIsLessThanOrEqualTo" xml:space="preserve">
-    <value>小于或等于</value>
-  </data>
-  <data name="Filter_NumberIsLessThan" xml:space="preserve">
-    <value>小于</value>
-  </data>
-  <data name="Filter_NumberIsNotEqualTo" xml:space="preserve">
-    <value>不等于</value>
-  </data>
-  <data name="Filter_Info" xml:space="preserve">
-    <value>显示符合以下条件的行</value>
-  </data>
-  <data name="Filter_StringEndsWith" xml:space="preserve">
-    <value>结束于</value>
-  </data>
-  <data name="Filter_StringIsEqualTo" xml:space="preserve">
-    <value>等于</value>
-  </data>
-  <data name="Filter_StringIsNotEqualTo" xml:space="preserve">
-    <value>不等于</value>
-  </data>
-  <data name="Filter_StringStartsWith" xml:space="preserve">
-    <value>开始于</value>
-  </data>
-  <data name="Filter_StringContains" xml:space="preserve">
-    <value>包含</value>
-  </data>
-  <data name="Group_Empty" xml:space="preserve">
-    <value>托拽列标题到此处按列组合显示</value>
+  <data name="Filter_DateIsNull" xml:space="preserve">
+    <value>为空</value>
   </data>
   <data name="Filter_EnumIsEqualTo" xml:space="preserve">
     <value>等于</value>
@@ -216,11 +396,14 @@
   <data name="Filter_EnumIsNotEqualTo" xml:space="preserve">
     <value>不等于</value>
   </data>
-  <data name="Grid_Confirmation" xml:space="preserve">
-    <value>确定要删除吗？</value>
+  <data name="Filter_EnumIsNotNull" xml:space="preserve">
+    <value>不为空</value>
   </data>
-  <data name="Filter_SelectValue" xml:space="preserve">
-    <value>-选择值-</value>
+  <data name="Filter_EnumIsNull" xml:space="preserve">
+    <value>为空</value>
+  </data>
+  <data name="Filter_Filter" xml:space="preserve">
+    <value>筛选</value>
   </data>
   <data name="Filter_IsFalse" xml:space="preserve">
     <value>为假</value>
@@ -228,127 +411,487 @@
   <data name="Filter_IsTrue" xml:space="preserve">
     <value>为真</value>
   </data>
-  <data name="Pager_Empty" xml:space="preserve">
-    <value>没有可显示的记录。</value>
+  <data name="Filter_NoData" xml:space="preserve">
+    <value>无数据</value>
   </data>
-  <data name="Grid_CancelChanges" xml:space="preserve">
-    <value>取消修改</value>
+  <data name="Filter_NumberIsEqualTo" xml:space="preserve">
+    <value>等于</value>
   </data>
-  <data name="Grid_SaveChanges" xml:space="preserve">
-    <value>保存修改</value>
+  <data name="Filter_NumberIsGreaterThan" xml:space="preserve">
+    <value>大于</value>
   </data>
-  <data name="Pager_Refresh" xml:space="preserve">
-    <value>刷新</value>
+  <data name="Filter_NumberIsGreaterThanOrEqualTo" xml:space="preserve">
+    <value>大于或等于</value>
+  </data>
+  <data name="Filter_NumberIsLessThan" xml:space="preserve">
+    <value>小于</value>
+  </data>
+  <data name="Filter_NumberIsLessThanOrEqualTo" xml:space="preserve">
+    <value>小于或等于</value>
+  </data>
+  <data name="Filter_NumberIsNotEqualTo" xml:space="preserve">
+    <value>不等于</value>
+  </data>
+  <data name="Filter_NumberIsNotNull" xml:space="preserve">
+    <value>不为空</value>
+  </data>
+  <data name="Filter_NumberIsNull" xml:space="preserve">
+    <value>为空</value>
+  </data>
+  <data name="Filter_Or" xml:space="preserve">
+    <value>或者</value>
+  </data>
+  <data name="Filter_Search" xml:space="preserve">
+    <value>差少</value>
+  </data>
+  <data name="Filter_SelectAll" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="Filter_SelectValue" xml:space="preserve">
+    <value>-选择值-</value>
+  </data>
+  <data name="Filter_StringContains" xml:space="preserve">
+    <value>包含</value>
   </data>
   <data name="Filter_StringDoesNotContain" xml:space="preserve">
     <value>不包含</value>
   </data>
-  <data name="Filter_Or" xml:space="preserve">
-    <value>或者</value>
+  <data name="Filter_StringEndsWith" xml:space="preserve">
+    <value>结束于</value>
+  </data>
+  <data name="Filter_StringIsEmpty" xml:space="preserve">
+    <value>空白内容</value>
+  </data>
+  <data name="Filter_StringIsEqualTo" xml:space="preserve">
+    <value>等于</value>
+  </data>
+  <data name="Filter_StringIsNotEmpty" xml:space="preserve">
+    <value>有内容</value>
+  </data>
+  <data name="Filter_StringIsNotEqualTo" xml:space="preserve">
+    <value>不等于</value>
+  </data>
+  <data name="Filter_StringIsNotNull" xml:space="preserve">
+    <value>不为空</value>
+  </data>
+  <data name="Filter_StringIsNotNullOrEmpty" xml:space="preserve">
+    <value>不为空或空白内容</value>
+  </data>
+  <data name="Filter_StringIsNull" xml:space="preserve">
+    <value>为空</value>
+  </data>
+  <data name="Filter_StringIsNullOrEmpty" xml:space="preserve">
+    <value>为空或无内容</value>
+  </data>
+  <data name="Filter_StringStartsWith" xml:space="preserve">
+    <value>开始于</value>
+  </data>
+  <data name="Form_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Form_Submit" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Grid_CancelDelete" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Grid_Create" xml:space="preserve">
+    <value>新建记录</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Grid_DragItems" xml:space="preserve">
+    <value>选中项</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Grid_NoRecords" xml:space="preserve">
+    <value>没有可用的记录。</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>查找...</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>升序排列</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>降序排列</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Group_Empty" xml:space="preserve">
+    <value>拖动列头并放置到这里来进行分组排列。</value>
+  </data>
+  <data name="MultiSelect_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="MultiSelect_NoData" xml:space="preserve">
+    <value>无数据</value>
+  </data>
+  <data name="NumericTextBox_DecreaseValue" xml:space="preserve">
+    <value>减少</value>
+  </data>
+  <data name="NumericTextBox_IncreaseValue" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="Pager_Display" xml:space="preserve">
+    <value>显示条目 {0} - {1}, 共 {2} 项</value>
+  </data>
+  <data name="Pager_Empty" xml:space="preserve">
+    <value>无项目</value>
   </data>
   <data name="Pager_First" xml:space="preserve">
     <value>首页</value>
   </data>
   <data name="Pager_ItemsPerPage" xml:space="preserve">
-    <value>items per page</value>
+    <value>项每页</value>
   </data>
   <data name="Pager_Last" xml:space="preserve">
     <value>末页</value>
   </data>
+  <data name="Pager_MorePages" xml:space="preserve">
+    <value>更多页码</value>
+  </data>
   <data name="Pager_Next" xml:space="preserve">
-    <value>后页</value>
+    <value>下一页</value>
+  </data>
+  <data name="Pager_Of" xml:space="preserve">
+    <value>共 {0} </value>
+  </data>
+  <data name="Pager_Page" xml:space="preserve">
+    <value>页</value>
   </data>
   <data name="Pager_Previous" xml:space="preserve">
-    <value>前页</value>
+    <value>上一页</value>
   </data>
-  <data name="Grid_Columns" xml:space="preserve">
-    <value>列</value>
+  <data name="Pager_Refresh" xml:space="preserve">
+    <value>刷新</value>
   </data>
-  <data name="Grid_SortAscending" xml:space="preserve">
-    <value>升序排序</value>
+  <data name="Scheduler_AllDay" xml:space="preserve">
+    <value>全天</value>
   </data>
-  <data name="Grid_SortDescending" xml:space="preserve">
-    <value>降序排序</value>
-  </data>
-  <data name="Filter_Cancel" xml:space="preserve">
+  <data name="Scheduler_Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
-  <data name="Filter_Operator" xml:space="preserve">
-    <value>接线员</value>
+  <data name="Scheduler_Day" xml:space="preserve">
+    <value>天</value>
   </data>
-  <data name="Filter_Value" xml:space="preserve">
-    <value>值</value>
-  </data>
-  <data name="Filter_AdditionalOperator" xml:space="preserve">
-    <value>附加运算</value>
-  </data>
-  <data name="Filter_AdditionalValue" xml:space="preserve">
-    <value>附加值</value>
-  </data>
-  <data name="Filter_Logic" xml:space="preserve">
-    <value>筛选逻辑</value>
-  </data>
-  <data name="Grid_CheckAll" xml:space="preserve">
-    <value>全选</value>
-  </data>
-  <data name="Grid_CancelDelete" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="Grid_ColumnSettings" xml:space="preserve">
-    <value>列设置</value>
-  </data>
-  <data name="Grid_ConfirmDelete" xml:space="preserve">
+  <data name="Scheduler_Delete" xml:space="preserve">
     <value>删除</value>
   </data>
-  <data name="Grid_Done" xml:space="preserve">
-    <value>做</value>
+  <data name="Scheduler_Editor_Description" xml:space="preserve">
+    <value>说明</value>
   </data>
-  <data name="Pager_MorePages" xml:space="preserve">
-    <value>更多页</value>
+  <data name="Scheduler_Editor_EditorTitle" xml:space="preserve">
+    <value>事件</value>
   </data>
-  <data name="Grid_Lock" xml:space="preserve">
-    <value>锁</value>
+  <data name="Scheduler_Editor_End" xml:space="preserve">
+    <value>结束时间</value>
   </data>
-  <data name="Grid_Unlock" xml:space="preserve">
-    <value>开锁</value>
+  <data name="Scheduler_Editor_EndTimeRequiredValidationMessage" xml:space="preserve">
+    <value>结束时间必填。</value>
   </data>
-  <data name="Grid_Excel" xml:space="preserve">
-    <value>Export to Excel</value>
+  <data name="Scheduler_Editor_EndTimeValueValidationMessage" xml:space="preserve">
+    <value>结束时间必须晚于开始时间。</value>
   </data>
-  <data name="Grid_NoRecords" xml:space="preserve">
+  <data name="Scheduler_Editor_IsAllDay" xml:space="preserve">
+    <value>全天事件</value>
+  </data>
+  <data name="Scheduler_Editor_Repeat" xml:space="preserve">
+    <value>重复</value>
+  </data>
+  <data name="Scheduler_Editor_Start" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="Scheduler_Editor_StartTimeRequiredValidationMessage" xml:space="preserve">
+    <value>开始时间必填。</value>
+  </data>
+  <data name="Scheduler_Editor_StartTimeValueValidationMessage" xml:space="preserve">
+    <value>开始时间必须早于结束时间。</value>
+  </data>
+  <data name="Scheduler_Editor_Title" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="Scheduler_Editor_TitleRequiredValidationMessage" xml:space="preserve">
+    <value>标题必填。</value>
+  </data>
+  <data name="Scheduler_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="Scheduler_MultiDay" xml:space="preserve">
+    <value>多天</value>
+  </data>
+  <data name="Scheduler_Next" xml:space="preserve">
+    <value>下一项</value>
+  </data>
+  <data name="Scheduler_Previous" xml:space="preserve">
+    <value>上一项</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteRecurring" xml:space="preserve">
+    <value>您是要删除此事件还是要删除整个系列？</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteWindowOccurrence" xml:space="preserve">
+    <value>删除当前</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteWindowSeries" xml:space="preserve">
+    <value>全部删除</value>
+  </data>
+  <data name="Scheduler_Recurrence_DeleteWindowTitle" xml:space="preserve">
+    <value>删除约会</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Daily_Interval" xml:space="preserve">
+    <value> 天</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Daily_RepeatEvery" xml:space="preserve">
+    <value>重复每</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_After" xml:space="preserve">
+    <value>结束于 </value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_Label" xml:space="preserve">
+    <value>结束条件</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_Never" xml:space="preserve">
+    <value>从不结束</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_Occurrence" xml:space="preserve">
+    <value>次事件之后</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_End_On" xml:space="preserve">
+    <value>在 </value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Daily" xml:space="preserve">
+    <value>按天</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Monthly" xml:space="preserve">
+    <value>按月</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Never" xml:space="preserve">
+    <value>不重复</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Weekly" xml:space="preserve">
+    <value>安周</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Frequencies_Yearly" xml:space="preserve">
+    <value>按年</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_Day" xml:space="preserve">
+    <value>日期为</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_Interval" xml:space="preserve">
+    <value>个月</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_RepeatEvery" xml:space="preserve">
+    <value>重复每</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Monthly_RepeatOn" xml:space="preserve">
+    <value>重复于</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_First" xml:space="preserve">
+    <value>第一</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Fourth" xml:space="preserve">
+    <value>第四</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Last" xml:space="preserve">
+    <value>最后一</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Second" xml:space="preserve">
+    <value>第二</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_OffsetPositions_Third" xml:space="preserve">
+    <value>第三</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekdays_Day" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekdays_Weekday" xml:space="preserve">
+    <value>个工作日</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekdays_Weekend" xml:space="preserve">
+    <value>个周末</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekly_Interval" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekly_RepeatEvery" xml:space="preserve">
+    <value>重复每</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Weekly_RepeatOn" xml:space="preserve">
+    <value>重复于</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_Interval" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_Of" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_RepeatEvery" xml:space="preserve">
+    <value>重复每</value>
+  </data>
+  <data name="Scheduler_Recurrence_Editor_Yearly_RepeatOn" xml:space="preserve">
+    <value>重复于</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditRecurring" xml:space="preserve">
+    <value>您只想编辑此事件还是整个系列？</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowOccurrence" xml:space="preserve">
+    <value>编辑事件</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowSeries" xml:space="preserve">
+    <value>编辑系列</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowTitle" xml:space="preserve">
+    <value>编辑约会</value>
+  </data>
+  <data name="Scheduler_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Scheduler_ShowFullDay" xml:space="preserve">
+    <value>显示全天</value>
+  </data>
+  <data name="Scheduler_ShowWorkDay" xml:space="preserve">
+    <value>显示工作时间</value>
+  </data>
+  <data name="Scheduler_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="Scheduler_Week" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="Slider_Decrease" xml:space="preserve">
+    <value>减少</value>
+  </data>
+  <data name="Slider_Increase" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="Switch_OffLabel" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="Switch_OnLabel" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="TimePicker_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="TimePicker_Day" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="TimePicker_DayPeriod" xml:space="preserve">
+    <value>AM/PM</value>
+  </data>
+  <data name="TimePicker_Era" xml:space="preserve">
+    <value>年代</value>
+  </data>
+  <data name="TimePicker_Hour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="TimePicker_Minute" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="TimePicker_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="TimePicker_Now" xml:space="preserve">
+    <value>此时</value>
+  </data>
+  <data name="TimePicker_Quarter" xml:space="preserve">
+    <value>刻</value>
+  </data>
+  <data name="TimePicker_Second" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="TimePicker_Set" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="TimePicker_ToggleClock" xml:space="preserve">
+    <value>切换时钟</value>
+  </data>
+  <data name="TimePicker_WeekDay" xml:space="preserve">
+    <value>工作日</value>
+  </data>
+  <data name="TimePicker_Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="TimePicker_Zone" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="TreeList_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="TreeList_Create" xml:space="preserve">
+    <value>添加记录</value>
+  </data>
+  <data name="TreeList_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="TreeList_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="TreeList_NoRecords" xml:space="preserve">
     <value>没有可用的记录。</value>
   </data>
-  <data name="Pager_AllPages" xml:space="preserve">
-    <value>All</value>
+  <data name="TreeList_Search" xml:space="preserve">
+    <value>查找...</value>
   </data>
-  <data name="Filter_StringIsEmpty" xml:space="preserve">
-    <value>Is empty</value>
+  <data name="TreeList_SortedAscending" xml:space="preserve">
+    <value>升序排列</value>
   </data>
-  <data name="Filter_StringIsNotEmpty" xml:space="preserve">
-    <value>Is not empty</value>
+  <data name="TreeList_SortedDescending" xml:space="preserve">
+    <value>降序排列</value>
   </data>
-  <data name="Filter_StringIsNotNull" xml:space="preserve">
-    <value>Is not null</value>
+  <data name="TreeList_Update" xml:space="preserve">
+    <value>更新</value>
   </data>
-  <data name="Filter_StringIsNull" xml:space="preserve">
-    <value>Is null</value>
+  <data name="Upload_Cancel" xml:space="preserve">
+    <value>取消</value>
   </data>
-  <data name="Filter_NumberIsNotNull" xml:space="preserve">
-    <value>Is not null</value>
+  <data name="Upload_Clear" xml:space="preserve">
+    <value>清除</value>
   </data>
-  <data name="Filter_NumberIsNull" xml:space="preserve">
-    <value>Is null</value>
+  <data name="Upload_FileStatusFailed" xml:space="preserve">
+    <value>文件上传失败。</value>
   </data>
-  <data name="Filter_DateIsNotNull" xml:space="preserve">
-    <value>Is not null</value>
+  <data name="Upload_FileStatusUploaded" xml:space="preserve">
+    <value>文件上传成功。</value>
   </data>
-  <data name="Filter_DateIsNull" xml:space="preserve">
-    <value>Is null</value>
+  <data name="Upload_HeaderStatusUploaded" xml:space="preserve">
+    <value>上传完成</value>
   </data>
-  <data name="Filter_EnumIsNotNull" xml:space="preserve">
-    <value>Is not null</value>
+  <data name="Upload_HeaderStatusUploading" xml:space="preserve">
+    <value>正在上传...</value>
   </data>
-  <data name="Filter_EnumIsNull" xml:space="preserve">
-    <value>Is null</value>
+  <data name="Upload_InvalidFileExtension" xml:space="preserve">
+    <value>不允许的文件类型。</value>
+  </data>
+  <data name="Upload_InvalidMaxFileSize" xml:space="preserve">
+    <value>文件过大。</value>
+  </data>
+  <data name="Upload_InvalidMinFileSize" xml:space="preserve">
+    <value>文件太小。</value>
+  </data>
+  <data name="Upload_Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Upload_Retry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="Upload_SelectFiles" xml:space="preserve">
+    <value>选择文件...</value>
+  </data>
+  <data name="Upload_UploadFiles" xml:space="preserve">
+    <value>上传</value>
   </data>
 </root>
