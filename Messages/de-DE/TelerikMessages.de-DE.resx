@@ -156,6 +156,12 @@
   <data name="Calendar_Today" xml:space="preserve">
     <value>Heute</value>
   </data>
+  <data name="Carousel_Next" xml:space="preserve">
+    <value>Nächstes</value>
+  </data>
+  <data name="Carousel_Previous" xml:space="preserve">
+    <value>Vorheriges</value>
+  </data>
   <data name="ColumnMenu_Apply" xml:space="preserve">
     <value>Anwenden</value>
   </data>
@@ -264,8 +270,11 @@
   <data name="Editor_DialogCancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
+  <data name="Editor_DialogClose" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
   <data name="Editor_DialogInsert" xml:space="preserve">
-    <value />
+    <value>Einfügen</value>
   </data>
   <data name="Editor_DialogUpdate" xml:space="preserve">
     <value>Aktualisieren</value>
@@ -495,11 +504,68 @@
   <data name="Form_Submit" xml:space="preserve">
     <value>Absenden</value>
   </data>
+  <data name="Gantt_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Gantt_Day" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Gantt_Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Gantt_Editor_EditorTitle" xml:space="preserve">
+    <value>Aufgabe</value>
+  </data>
+  <data name="Gantt_Editor_End" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="Gantt_Editor_EndTimeValueValidationMessage" xml:space="preserve">
+    <value>Das Enddatum muss größer sein als das Startdatum.</value>
+  </data>
+  <data name="Gantt_Editor_PercentComplete" xml:space="preserve">
+    <value>Abgeschlossen</value>
+  </data>
+  <data name="Gantt_Editor_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Gantt_Editor_StartTimeValueValidationMessage" xml:space="preserve">
+    <value>Das Startdatum muss kleiner sein als das Enddatum.</value>
+  </data>
+  <data name="Gantt_Editor_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Gantt_Editor_TitleRequiredValidationMessage" xml:space="preserve">
+    <value>Der Titel ist erforderlich.</value>
+  </data>
+  <data name="Gantt_Month" xml:space="preserve">
+    <value>Monat</value>
+  </data>
+  <data name="Gantt_Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Gantt_Week" xml:space="preserve">
+    <value>Woche</value>
+  </data>
+  <data name="Gantt_Year" xml:space="preserve">
+    <value>Jahr</value>
+  </data>
   <data name="Grid_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
   <data name="Grid_CancelDelete" xml:space="preserve">
     <value>Abbrechen</value>
+  </data>
+  <data name="Grid_ConfirmDeleteCancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Grid_ConfirmDeleteOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Grid_ConfirmDeleteText" xml:space="preserve">
+    <value>Sind Sie sicher, dass sie den Eintrag löschen möchten?</value>
+  </data>
+  <data name="Grid_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Löschen</value>
   </data>
   <data name="Grid_Create" xml:space="preserve">
     <value>Neuen Datensatz hinzufügen</value>
@@ -549,6 +615,12 @@
   <data name="NumericTextBox_IncreaseValue" xml:space="preserve">
     <value>Wert erhöhen</value>
   </data>
+  <data name="Optional_Label" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="Pager_AllPages" xml:space="preserve">
+    <value>Alle</value>
+  </data>
   <data name="Pager_Display" xml:space="preserve">
     <value>{0} - {1} von {2} Elementen</value>
   </data>
@@ -585,8 +657,23 @@
   <data name="Scheduler_AllDay" xml:space="preserve">
     <value>den ganzen Tag</value>
   </data>
+  <data name="Scheduler_AllEvents" xml:space="preserve">
+    <value>Alle Events</value>
+  </data>
   <data name="Scheduler_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
+  </data>
+  <data name="Scheduler_ConfirmDeleteCancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Scheduler_ConfirmDeleteOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Scheduler_ConfirmDeleteText" xml:space="preserve">
+    <value>Sind Sie sicher, dass sie das Event löschen möchten?</value>
+  </data>
+  <data name="Scheduler_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Löschen</value>
   </data>
   <data name="Scheduler_Day" xml:space="preserve">
     <value>Tag</value>
@@ -768,6 +855,9 @@
   <data name="Scheduler_ShowWorkDay" xml:space="preserve">
     <value>Geschäftszeiten anzeigen</value>
   </data>
+  <data name="Scheduler_Timeline" xml:space="preserve">
+    <value>Zeitleiste</value>
+  </data>
   <data name="Scheduler_Today" xml:space="preserve">
     <value>Heute</value>
   </data>
@@ -834,6 +924,18 @@
   <data name="TreeList_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
+  <data name="TreeList_ConfirmDeleteCancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="TreeList_ConfirmDeleteOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="TreeList_ConfirmDeleteText" xml:space="preserve">
+    <value>Sind Sie sicher, dass sie den Eintrag löschen möchten?</value>
+  </data>
+  <data name="TreeList_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
   <data name="TreeList_Create" xml:space="preserve">
     <value>Neuen Datensatz hinzufügen</value>
   </data>
@@ -896,5 +998,17 @@
   </data>
   <data name="Upload_UploadFiles" xml:space="preserve">
     <value>Hochladen</value>
+  </data>
+  <data name="Wizard_Done" xml:space="preserve">
+    <value>Fertig</value>
+  </data>
+  <data name="Wizard_Next" xml:space="preserve">
+    <value>Nächstes</value>
+  </data>
+  <data name="Wizard_Pager" xml:space="preserve">
+    <value>Schritt {0} von {1}</value>
+  </data>
+  <data name="Wizard_Previous" xml:space="preserve">
+    <value>Vorheriges</value>
   </data>
 </root>
