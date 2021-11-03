@@ -162,6 +162,54 @@
   <data name="Carousel_Previous" xml:space="preserve">
     <value>Vorheriges</value>
   </data>
+  <data name="ColorAlpha_Label" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="ColorBlue_Label" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="ColorGradient_AlphaSlider_Label" xml:space="preserve">
+    <value>Wert des Alpha-Schiebereglers</value>
+  </data>
+  <data name="ColorGradient_HueSlider_Label" xml:space="preserve">
+    <value>Wert des Hue-Schiebereglers</value>
+  </data>
+  <data name="ColorGradient_ToggleButton" xml:space="preserve">
+    <value>Format umschalten.</value>
+  </data>
+  <data name="ColorGreen_Label" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="ColorHex_Label" xml:space="preserve">
+    <value>HEX</value>
+  </data>
+  <data name="ColorHex_Placeholder" xml:space="preserve">
+    <value>Hex-Farbe</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>Anwenden</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ColorPicker_ClearTitle" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="ColorPicker_CurrentColor" xml:space="preserve">
+    <value>Aktuelle Farbe</value>
+  </data>
+  <data name="ColorPicker_GradientViewTitle" xml:space="preserve">
+    <value>Gradientenansicht auswählen</value>
+  </data>
+  <data name="ColorPicker_PaletteViewTitle" xml:space="preserve">
+    <value>Palettenansicht auswählen</value>
+  </data>
+  <data name="ColorPicker_PreviewColor" xml:space="preserve">
+    <value>Farbvorschau</value>
+  </data>
+  <data name="ColorRed_Label" xml:space="preserve">
+    <value>R</value>
+  </data>
   <data name="ColumnMenu_Apply" xml:space="preserve">
     <value>Anwenden</value>
   </data>
