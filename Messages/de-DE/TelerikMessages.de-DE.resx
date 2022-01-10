@@ -267,6 +267,9 @@
   <data name="Dialog_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
   <data name="Dialog_Ok" xml:space="preserve">
     <value>Ok</value>
   </data>
@@ -633,6 +636,12 @@
   <data name="Grid_Search" xml:space="preserve">
     <value>Suchen...</value>
   </data>
+  <data name="Grid_SelectAllRows" xml:space="preserve">
+    <value>Alle Zeilen auswählen</value>
+  </data>
+  <data name="Grid_SelectRow" xml:space="preserve">
+    <value>Eine Zeile auswählen</value>
+  </data>
   <data name="Grid_SortAscending" xml:space="preserve">
     <value>Aufsteigend sortieren</value>
   </data>
@@ -695,6 +704,9 @@
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>Seite</value>
+  </data>
+  <data name="Pager_PageInputLabel" xml:space="preserve">
+    <value>Eine Seite auswählen</value>
   </data>
   <data name="Pager_Previous" xml:space="preserve">
     <value>Zur vorherigen Seite</value>
@@ -998,6 +1010,12 @@
   </data>
   <data name="TreeList_Search" xml:space="preserve">
     <value>Suchen...</value>
+  </data>
+  <data name="TreeList_SelectAllRows" xml:space="preserve">
+    <value>Alle Zeilen auswählen</value>
+  </data>
+  <data name="TreeList_SelectRow" xml:space="preserve">
+    <value>Eine Zeile auswählen</value>
   </data>
   <data name="TreeList_SortedAscending" xml:space="preserve">
     <value>In aufsteigender Reihenfolge sortiert</value>
