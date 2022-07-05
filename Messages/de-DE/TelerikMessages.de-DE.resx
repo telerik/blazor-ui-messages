@@ -136,7 +136,7 @@
     <value>Löschen</value>
   </data>
   <data name="AutoComplete_NoData" xml:space="preserve">
-    <value>Keine Daten</value>
+    <value>Keine Daten gefunden</value>
   </data>
   <data name="Calendar_Choose_Decade" xml:space="preserve">
     <value>Ein Jahrzehnt wählen</value>
@@ -198,8 +198,17 @@
   <data name="ColorPicker_CurrentColor" xml:space="preserve">
     <value>Aktuelle Farbe</value>
   </data>
+  <data name="ColorPicker_GradientTitle" xml:space="preserve">
+    <value>Gradient auswählen</value>
+  </data>
   <data name="ColorPicker_GradientViewTitle" xml:space="preserve">
     <value>Gradientenansicht auswählen</value>
+  </data>
+  <data name="ColorPicker_Open" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="ColorPicker_PaletteTitle" xml:space="preserve">
+    <value>Palette auswählen</value>
   </data>
   <data name="ColorPicker_PaletteViewTitle" xml:space="preserve">
     <value>Palettenansicht auswählen</value>
@@ -240,11 +249,17 @@
   <data name="ComboBox_NoData" xml:space="preserve">
     <value>Keine Daten</value>
   </data>
+  <data name="ComboBox_Open" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
   <data name="DateInput_ParsingErrorMessage" xml:space="preserve">
     <value>Das Datumsformat kann nicht geparst werden. Bitte geben Sie ein gültiges Datum ein.</value>
   </data>
   <data name="DateInput_ValidationErrorMessage" xml:space="preserve">
     <value>Das Datum ist ungültig.</value>
+  </data>
+  <data name="DatePicker_Open" xml:space="preserve">
+    <value>Öffnen</value>
   </data>
   <data name="DateRangePicker_End" xml:space="preserve">
     <value>Ende</value>
@@ -257,6 +272,9 @@
   </data>
   <data name="DateTimePicker_Date" xml:space="preserve">
     <value>Datum</value>
+  </data>
+  <data name="DateTimePicker_Open" xml:space="preserve">
+    <value>Öffnen</value>
   </data>
   <data name="DateTimePicker_Set" xml:space="preserve">
     <value>Setzen</value>
@@ -275,6 +293,9 @@
   </data>
   <data name="DropDownList_NoData" xml:space="preserve">
     <value>Keine Daten</value>
+  </data>
+  <data name="DropDownList_Open" xml:space="preserve">
+    <value>Öffnen</value>
   </data>
   <data name="Editor_AddColumnAfter" xml:space="preserve">
     <value>Spalte rechts hinzufügen</value>
@@ -317,6 +338,9 @@
   </data>
   <data name="Editor_DeleteColumn" xml:space="preserve">
     <value>Spalte löschen</value>
+  </data>
+  <data name="Editor_DeleteRow" xml:space="preserve">
+    <value>Zeile löschen</value>
   </data>
   <data name="Editor_DialogCancel" xml:space="preserve">
     <value>Abbrechen</value>
@@ -378,6 +402,9 @@
   <data name="Editor_LinkOpenNewWindow" xml:space="preserve">
     <value>In neuem Fenster öffnen</value>
   </data>
+  <data name="Editor_LinkText" xml:space="preserve">
+    <value>Text</value>
+  </data>
   <data name="Editor_LinkTitle" xml:space="preserve">
     <value>Titel:</value>
   </data>
@@ -417,11 +444,131 @@
   <data name="Editor_Unlink" xml:space="preserve">
     <value>Hyperlink entfernen</value>
   </data>
+  <data name="Editor_ViewHtml" xml:space="preserve">
+    <value>HTML anzeigen</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteCancel" xml:space="preserve">
+    <value>Absagen</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteText" xml:space="preserve">
+    <value>Möchten Sie die Datei(en) wirklich löschen</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="FileManager_ContextMenu_Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="FileManager_ContextMenu_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="FileManager_ContextMenu_Rename" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="FileManager_DetailsPane_DateCreated" xml:space="preserve">
+    <value>Datum erstellt</value>
+  </data>
+  <data name="FileManager_DetailsPane_DateModified" xml:space="preserve">
+    <value>Datum geändert</value>
+  </data>
+  <data name="FileManager_DetailsPane_NoFileSelected" xml:space="preserve">
+    <value>Keine Datei ausgewählt</value>
+  </data>
+  <data name="FileManager_DetailsPane_Size" xml:space="preserve">
+    <value>Größe</value>
+  </data>
+  <data name="FileManager_DetailsPane_Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="FileManager_FileView_Items" xml:space="preserve">
+    <value>Gegenstand</value>
+  </data>
+  <data name="FileManager_Grid_DateCreatedColumnTitle" xml:space="preserve">
+    <value>Datum erstellt</value>
+  </data>
+  <data name="FileManager_Grid_FileSizeColumnTitle" xml:space="preserve">
+    <value>Dateigröße</value>
+  </data>
+  <data name="FileManager_Grid_NameColumnTitle" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="FileManager_SearchBox_Placeholder" xml:space="preserve">
+    <value>Suche</value>
+  </data>
+  <data name="FileManager_SearchBox_Title" xml:space="preserve">
+    <value>Suche</value>
+  </data>
+  <data name="FileManager_ToolBar_CreateNewFolder" xml:space="preserve">
+    <value>Neuer Ordner</value>
+  </data>
+  <data name="FileManager_ToolBar_SortBy" xml:space="preserve">
+    <value>Sortieren nach</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByDateCreated" xml:space="preserve">
+    <value>Datum erstellt</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByDateModified" xml:space="preserve">
+    <value>Datum geändert</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="FileManager_ToolBar_SortBySize" xml:space="preserve">
+    <value>Größe</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="FileManager_ToolBar_Upload" xml:space="preserve">
+    <value>Hochladen</value>
+  </data>
+  <data name="FileManager_ToolBar_ViewDetails" xml:space="preserve">
+    <value>Details anzeigen</value>
+  </data>
+  <data name="FileManager_UploadDialogCancel" xml:space="preserve">
+    <value>Absagen</value>
+  </data>
+  <data name="FileManager_UploadDialogOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FileManager_UploadDialogTitle" xml:space="preserve">
+    <value>Daten hochladen</value>
+  </data>
+  <data name="FileSelect_InvalidFileExtension" xml:space="preserve">
+    <value>Dateityp nicht erlaubt.</value>
+  </data>
+  <data name="FileSelect_InvalidMaxFileSize" xml:space="preserve">
+    <value>Dateigröße zu groß.</value>
+  </data>
+  <data name="FileSelect_InvalidMinFileSize" xml:space="preserve">
+    <value>Dateigröße zu klein.</value>
+  </data>
+  <data name="FileSelect_Remove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="FileSelect_SelectFiles" xml:space="preserve">
+    <value>Dateien auswählen...</value>
+  </data>
+  <data name="Filter_AddExpression" xml:space="preserve">
+    <value>Ausdruck hinzufügen</value>
+  </data>
+  <data name="Filter_AddGroup" xml:space="preserve">
+    <value>Gruppe hinzufügen</value>
+  </data>
   <data name="Filter_All" xml:space="preserve">
     <value>(Alle)</value>
   </data>
   <data name="Filter_And" xml:space="preserve">
     <value>Und</value>
+  </data>
+  <data name="Filter_BooleanIsEqualTo" xml:space="preserve">
+    <value>Ist gleich</value>
+  </data>
+  <data name="Filter_BooleanIsNotEqualTo" xml:space="preserve">
+    <value>Ist nicht gleich</value>
   </data>
   <data name="Filter_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
@@ -466,7 +613,13 @@
     <value>Ist Null</value>
   </data>
   <data name="Filter_Filter" xml:space="preserve">
+    <value>Filtern</value>
+  </data>
+  <data name="Filter_FilterLabel" xml:space="preserve">
     <value>Filter</value>
+  </data>
+  <data name="Filter_FilterSettings" xml:space="preserve">
+    <value>Filtereinstellungen</value>
   </data>
   <data name="Filter_IsFalse" xml:space="preserve">
     <value>Ist falsch</value>
@@ -475,7 +628,7 @@
     <value>Ist wahr</value>
   </data>
   <data name="Filter_NoData" xml:space="preserve">
-    <value>Keine Daten</value>
+    <value>Keine Daten gefunden</value>
   </data>
   <data name="Filter_NumberIsEqualTo" xml:space="preserve">
     <value>Ist gleich</value>
@@ -503,6 +656,9 @@
   </data>
   <data name="Filter_Or" xml:space="preserve">
     <value>Oder</value>
+  </data>
+  <data name="Filter_Remove" xml:space="preserve">
+    <value>Entfernen</value>
   </data>
   <data name="Filter_Search" xml:space="preserve">
     <value>Suchen</value>
@@ -564,6 +720,9 @@
   <data name="Gantt_Delete" xml:space="preserve">
     <value>Löschen</value>
   </data>
+  <data name="Gantt_DialogClose" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
   <data name="Gantt_Editor_EditorTitle" xml:space="preserve">
     <value>Aufgabe</value>
   </data>
@@ -621,17 +780,41 @@
   <data name="Grid_Create" xml:space="preserve">
     <value>Neuen Datensatz hinzufügen</value>
   </data>
+  <data name="Grid_DataTable" xml:space="preserve">
+    <value>Datentabelle</value>
+  </data>
   <data name="Grid_Delete" xml:space="preserve">
     <value>Löschen</value>
+  </data>
+  <data name="Grid_DialogClose" xml:space="preserve">
+    <value>Schließen</value>
   </data>
   <data name="Grid_DragItems" xml:space="preserve">
     <value>Elemente ausgewählt</value>
   </data>
+  <data name="Grid_DragRowLabel" xml:space="preserve">
+    <value>Zeile ziehen</value>
+  </data>
   <data name="Grid_Edit" xml:space="preserve">
     <value>Editieren</value>
   </data>
+  <data name="Grid_Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Grid_FilterMenuSettings" xml:space="preserve">
+    <value>{0} Spaltenfilter-Menüeinstellungen</value>
+  </data>
+  <data name="Grid_FilterRowLabel" xml:space="preserve">
+    <value>{0} Filter</value>
+  </data>
+  <data name="Grid_GroupHeaderLabel" xml:space="preserve">
+    <value>Grid-Gruppenkopf</value>
+  </data>
   <data name="Grid_NoRecords" xml:space="preserve">
     <value>Keine Werte verfügbar.</value>
+  </data>
+  <data name="Grid_Remove" xml:space="preserve">
+    <value>Entfernen</value>
   </data>
   <data name="Grid_Search" xml:space="preserve">
     <value>Suchen...</value>
@@ -653,6 +836,9 @@
   </data>
   <data name="Grid_SortedDescending" xml:space="preserve">
     <value>In absteigender Reihenfolge sortiert</value>
+  </data>
+  <data name="Grid_ToolbarLabel" xml:space="preserve">
+    <value>Raster-Symbolleiste</value>
   </data>
   <data name="Grid_Update" xml:space="preserve">
     <value>Updaten</value>
@@ -705,6 +891,9 @@
   <data name="Pager_Page" xml:space="preserve">
     <value>Seite</value>
   </data>
+  <data name="Pager_PageDisplay" xml:space="preserve">
+    <value>Seite {0}</value>
+  </data>
   <data name="Pager_PageInputLabel" xml:space="preserve">
     <value>Eine Seite auswählen</value>
   </data>
@@ -713,6 +902,9 @@
   </data>
   <data name="Pager_Refresh" xml:space="preserve">
     <value>Aktualisieren</value>
+  </data>
+  <data name="Pager_WrapperLabel" xml:space="preserve">
+    <value>Seitennavigation, Seite {0} von {1}</value>
   </data>
   <data name="Scheduler_AllDay" xml:space="preserve">
     <value>den ganzen Tag</value>
@@ -740,6 +932,9 @@
   </data>
   <data name="Scheduler_Delete" xml:space="preserve">
     <value>Löschen</value>
+  </data>
+  <data name="Scheduler_DialogClose" xml:space="preserve">
+    <value>Schließen</value>
   </data>
   <data name="Scheduler_Editor_Description" xml:space="preserve">
     <value>Beschreibung</value>
@@ -801,6 +996,18 @@
   <data name="Scheduler_Recurrence_DeleteWindowTitle" xml:space="preserve">
     <value>Wiederkehrenden Termin löschen</value>
   </data>
+  <data name="Scheduler_Recurrence_EditRecurring" xml:space="preserve">
+    <value>Möchten Sie nur dieses Ereignis oder die gesamte Serie bearbeiten?</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowOccurrence" xml:space="preserve">
+    <value>Aktuelles Vorkommen bearbeiten</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowSeries" xml:space="preserve">
+    <value>Serie bearbeiten</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowTitle" xml:space="preserve">
+    <value>Wiederkehrenden Termin bearbeiten</value>
+  </data>
   <data name="Scheduler_Recurrence_Editor_Daily_Interval" xml:space="preserve">
     <value>Tage(e)</value>
   </data>
@@ -832,7 +1039,7 @@
     <value>Niemals</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Frequencies_Weekly" xml:space="preserve">
-    <value>Wochentlich</value>
+    <value>Wöchentlich</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Frequencies_Yearly" xml:space="preserve">
     <value>Jährlich</value>
@@ -894,18 +1101,6 @@
   <data name="Scheduler_Recurrence_Editor_Yearly_RepeatOn" xml:space="preserve">
     <value>Wiederhole am</value>
   </data>
-  <data name="Scheduler_Recurrence_EditRecurring" xml:space="preserve">
-    <value>Möchten Sie nur dieses Ereignis oder die gesamte Serie bearbeiten?</value>
-  </data>
-  <data name="Scheduler_Recurrence_EditWindowOccurrence" xml:space="preserve">
-    <value>Aktuelles Vorkommen bearbeiten</value>
-  </data>
-  <data name="Scheduler_Recurrence_EditWindowSeries" xml:space="preserve">
-    <value>Serie bearbeiten</value>
-  </data>
-  <data name="Scheduler_Recurrence_EditWindowTitle" xml:space="preserve">
-    <value>Wiederkehrenden Termin bearbeiten</value>
-  </data>
   <data name="Scheduler_Save" xml:space="preserve">
     <value>Speichern</value>
   </data>
@@ -929,6 +1124,9 @@
   </data>
   <data name="Slider_Increase" xml:space="preserve">
     <value>Erhöhen</value>
+  </data>
+  <data name="SplitButton_Open" xml:space="preserve">
+    <value>Öffnen</value>
   </data>
   <data name="Switch_OffLabel" xml:space="preserve">
     <value>Aus</value>
@@ -959,6 +1157,9 @@
   </data>
   <data name="TimePicker_Now" xml:space="preserve">
     <value>Jetzt</value>
+  </data>
+  <data name="TimePicker_Open" xml:space="preserve">
+    <value>Öffnen</value>
   </data>
   <data name="TimePicker_Quarter" xml:space="preserve">
     <value>Quartal</value>
@@ -1001,6 +1202,9 @@
   </data>
   <data name="TreeList_Delete" xml:space="preserve">
     <value>Löschen</value>
+  </data>
+  <data name="TreeList_DialogClose" xml:space="preserve">
+    <value>Schließen</value>
   </data>
   <data name="TreeList_Edit" xml:space="preserve">
     <value>Bearbeiten</value>
