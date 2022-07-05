@@ -1083,4 +1083,130 @@
   <data name="TreeList_DialogClose" xml:space="preserve">
     <value>Chiudi</value>
   </data>
+  <data name="FileManager_ConfirmDeleteCancel" xml:space="preserve">
+    <value>Annukka</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteText" xml:space="preserve">
+    <value>Sei sicuro di voler eliminare il/i file?</value>
+  </data>
+  <data name="FileManager_ConfirmDeleteTitle" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="FileManager_Grid_DateCreatedColumnTitle" xml:space="preserve">
+    <value>Data creazione</value>
+  </data>
+  <data name="FileManager_Grid_FileSizeColumnTitle" xml:space="preserve">
+    <value>Dimensione file</value>
+  </data>
+  <data name="FileManager_Grid_NameColumnTitle" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="FileManager_SearchBox_Placeholder" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="FileManager_SearchBox_Title" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="FileManager_ToolBar_CreateNewFolder" xml:space="preserve">
+    <value>Nuova cartella</value>
+  </data>
+  <data name="FileManager_ToolBar_SortBy" xml:space="preserve">
+    <value>Ordina per</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByDateCreated" xml:space="preserve">
+    <value>Data creazione</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByDateModified" xml:space="preserve">
+    <value>Data modifica</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="FileManager_ToolBar_SortBySize" xml:space="preserve">
+    <value>Dimensione</value>
+  </data>
+  <data name="FileManager_ToolBar_SortByType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="FileManager_ToolBar_Upload" xml:space="preserve">
+    <value>Carica</value>
+  </data>
+  <data name="FileManager_ToolBar_ViewDetails" xml:space="preserve">
+    <value>Visualizza dettagli</value>
+  </data>
+  <data name="FileManager_UploadDialogCancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="FileManager_UploadDialogOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FileManager_UploadDialogTitle" xml:space="preserve">
+    <value>Carica files</value>
+  </data>
+  <data name="FileManager_FileView_Items" xml:space="preserve">
+    <value>elementi</value>
+  </data>
+  <data name="FileManager_DetailsPane_NoFileSelected" xml:space="preserve">
+    <value>Nessun file selezionato</value>
+  </data>
+  <data name="FileManager_ContextMenu_Delete" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="FileManager_ContextMenu_Download" xml:space="preserve">
+    <value>Scarica</value>
+  </data>
+  <data name="FileManager_ContextMenu_Rename" xml:space="preserve">
+    <value>Rinomina</value>
+  </data>
+  <data name="FileManager_DetailsPane_DateCreated" xml:space="preserve">
+    <value>Data creazione</value>
+  </data>
+  <data name="FileManager_DetailsPane_DateModified" xml:space="preserve">
+    <value>Data modifica</value>
+  </data>
+  <data name="FileManager_DetailsPane_Size" xml:space="preserve">
+    <value>Dimensione</value>
+  </data>
+  <data name="FileManager_DetailsPane_Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Grid_DragRowLabel" xml:space="preserve">
+    <value>Trascina riga</value>
+  </data>
+  <data name="Grid_FilterRowLabel" xml:space="preserve">
+    <value>{0} filtri</value>
+  </data>
+  <data name="Grid_GroupHeaderLabel" xml:space="preserve">
+    <value>Intestazione gruppo griglia</value>
+  </data>
+  <data name="Grid_Remove" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="Grid_ToolbarLabel" xml:space="preserve">
+    <value>Toolbar griglia</value>
+  </data>
+  <data name="Grid_DataTable" xml:space="preserve">
+    <value>Tabella dati</value>
+  </data>
+  <data name="Grid_Filter" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="Grid_SelectAllRows" xml:space="preserve">
+    <value>Seleziona tutte le righe</value>
+  </data>
+  <data name="Grid_SelectRow" xml:space="preserve">
+    <value>Seleziona riga</value>
+  </data>
+  <data name="Pager_WrapperLabel" xml:space="preserve">
+    <value>Navigazione pagina, pagina {0} di {1}</value>
+  </data>
+  <data name="Pager_PageDisplay" xml:space="preserve">
+    <value>Pagina {0}</value>
+  </data>
+  <data name="Grid_FilterMenuSettings" xml:space="preserve">
+    <value>{0} impostazioni menu filtro colonne</value>
+  </data>
 </root>
