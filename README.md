@@ -2,13 +2,13 @@
 
 ## Overview
 
-This repo contains sample localization messages for the Telerik UI for Blazor component suite.
+This repo contains sample localization messages for the [Telerik UI for Blazor component library](https://www.telerik.com/blazor-ui?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme).
 
 > The resource files here are community contributions that may need updating. For up-to-date `.resx` files, please refer to the [**Notes** section below](#notes).
 
-You can read more on how localization works for them in the dedicated <a href="https://docs.telerik.com/blazor-ui/globalization/localization" target="_blank">Localization</a> documentation article - it explains how to add the necessary localization service in your Blazor application and how to find the up-to-date list of keys from our demos.
+You can read more on how localization works for them in the dedicated <a href="https://docs.telerik.com/blazor-ui/globalization/localization?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme" target="_blank">Localization</a> documentation article - it explains how to add the necessary localization service in your Blazor application and how to find the up-to-date list of keys from our demos.
 
-You can also find sample projects in the <a href="https://github.com/telerik/blazor-ui/tree/master/common/localization" target="_blank">Telerik UI for Blazor Sample Projects repo: Localization</a>.
+You can find additional sample localization projects in the <a href="https://github.com/telerik/blazor-ui/tree/master/common/localization" target="_blank">Telerik UI for Blazor Sample Projects repo: Localization</a>.
 
 ## Contribution
 
@@ -32,14 +32,11 @@ You can find an up-to-date list of the used strings in our [API documentation](h
 
 ## See Also
 
-This repository does not contain the actual source code of the components, or the demos application.
+This repository does not contain the actual source code of the Telerik Blazor components, or the [Telerik Blazor Demos Application](http://demos.telerik.com/blazor-ui/). The demos application is available as an offline project from your Telerik UI for Blazor installation.
 
-You can find the demos live at [https://demos.telerik.com/blazor-ui](https://demos.telerik.com/blazor-ui)
+## Useful Links
 
-You can find the documentation at [https://docs.telerik.com/blazor-ui/introduction](https://docs.telerik.com/blazor-ui/introduction)
-
-You can find the tracker for bugs and feature requests at [https://feedback.telerik.com/blazor](https://feedback.telerik.com/blazor)
-
-You can find more sample applications and scenarios in the [Telerik UI for Blazor Sample Projects repo](https://github.com/telerik/blazor-ui)
-
-The demos application is available as an offline project from your Telerik UI for Blazor installation.
+* Browse all [Telerik UI for Blazor component demos live](https://demos.telerik.com/blazor-ui)
+* Browse the [Telerik UI for Blazor documentation](https://docs.telerik.com/blazor-ui/introduction?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme)
+* [Request features or report bugs](https://feedback.telerik.com/blazor?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme)
+* Find more sample applications and scenarios in the [Telerik UI for Blazor Sample Projects repo](https://github.com/telerik/blazor-ui)
