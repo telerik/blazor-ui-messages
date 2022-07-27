@@ -35,6 +35,7 @@ You can find an up-to-date list of the used strings in our [API documentation](h
 This repository does not contain the actual source code of the Telerik Blazor components, or the [Telerik Blazor Demos Application](http://demos.telerik.com/blazor-ui/). The demos application is available as an offline project from your Telerik UI for Blazor installation.
 
 ## Useful Links
+
 * Browse all [Telerik UI for Blazor component demos live](https://demos.telerik.com/blazor-ui)
 * Browse [the Telerik UI for Blazor documentation](https://docs.telerik.com/blazor-ui/introduction?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme)
 * Follow this link to [report bugs and add feature requests](https://feedback.telerik.com/blazor?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme)
