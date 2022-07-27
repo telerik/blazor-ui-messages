@@ -38,5 +38,5 @@ This repository does not contain the actual source code of the Telerik Blazor co
 
 * Browse all [Telerik UI for Blazor component demos live](https://demos.telerik.com/blazor-ui)
 * Browse the [Telerik UI for Blazor documentation](https://docs.telerik.com/blazor-ui/introduction?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme)
-* Follow this link to [report bugs and add feature requests](https://feedback.telerik.com/blazor?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme)
+* [Request features or report bugs](https://feedback.telerik.com/blazor?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme)
 * You can find more sample applications and scenarios in the [Telerik UI for Blazor Sample Projects repo](https://github.com/telerik/blazor-ui)
