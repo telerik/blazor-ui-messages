@@ -4,6 +4,8 @@
 
 This repo contains sample localization messages for the [Telerik UI for Blazor component library](https://www.telerik.com/blazor-ui?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme).
 
+[![Telerik UI for Blazor Localization Messages](images/Telerik-UI-for-Blazor-Localization-Messages-830x230-RITM0168127.png)](https://docs.telerik.com/blazor-ui/globalization/localization?utm_medium=referral&utm_source=github&utm_campaign=blazor-awareness-docs-github)
+
 > The resource files here are community contributions that may need updating. For up-to-date `.resx` files, please refer to the [**Notes** section below](#notes).
 
 You can read more on how localization works for them in the dedicated <a href="https://docs.telerik.com/blazor-ui/globalization/localization?utm_medium=referral&utm_source=github&utm_campaign=blazor-ui-trial-gh-public-readme" target="_blank">Localization</a> documentation article - it explains how to add the necessary localization service in your Blazor application and how to find the up-to-date list of keys from our demos.
