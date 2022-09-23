@@ -1063,7 +1063,7 @@
     <value>Niemals</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Frequencies_Weekly" xml:space="preserve">
-    <value>Wochentlich</value>
+    <value>Wöchentlich</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Frequencies_Yearly" xml:space="preserve">
     <value>Jährlich</value>
