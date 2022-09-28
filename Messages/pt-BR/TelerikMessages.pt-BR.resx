@@ -589,7 +589,7 @@
     <value>Todas</value>
   </data>
   <data name="Pager_Display" xml:space="preserve">
-    <value>Elementos mostrados  {0} - {1} de {2}</value>
+    <value>{0} - {1} de {2} registros</value>
   </data>
   <data name="Pager_Empty" xml:space="preserve">
     <value>Não há dados.</value>
@@ -703,13 +703,13 @@
     <value>Excluir ocorrência atual</value>
   </data>
   <data name="Scheduler_Recurrence_DeleteWindowTitle" xml:space="preserve">
-    <value>Excluir item recorrente</value>
+    <value>Excluir Evento Recorrente</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Daily_Interval" xml:space="preserve">
     <value> dia(s)</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Daily_RepeatEvery" xml:space="preserve">
-    <value>Repetir a cada:</value>
+    <value>Repetir a cada</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_End_After" xml:space="preserve">
     <value>Depois</value>
@@ -748,7 +748,7 @@
     <value>mês(es)</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Monthly_RepeatEvery" xml:space="preserve">
-    <value>Repetir a cada:</value>
+    <value>Repetir a cada</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Monthly_RepeatOn" xml:space="preserve">
     <value>Repetir em:</value>
@@ -781,7 +781,7 @@
     <value>semana(s)</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Weekly_RepeatEvery" xml:space="preserve">
-    <value>Repetir a cada:</value>
+    <value>Repetir a cada</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Weekly_RepeatOn" xml:space="preserve">
     <value>Repetir em:</value>
@@ -808,7 +808,7 @@
     <value>Editar a série</value>
   </data>
   <data name="Scheduler_Recurrence_EditWindowTitle" xml:space="preserve">
-    <value>Editar item recorrente</value>
+    <value>Editar Evento Recorrente</value>
   </data>
   <data name="Scheduler_Save" xml:space="preserve">
     <value>Salvar</value>
@@ -817,7 +817,7 @@
     <value>Mostrar dia completo</value>
   </data>
   <data name="Scheduler_ShowWorkDay" xml:space="preserve">
-    <value>Mostrar horário de trabalho</value>
+    <value>Mostrar horário comercial</value>
   </data>
   <data name="Scheduler_Today" xml:space="preserve">
     <value>Hoje</value>
