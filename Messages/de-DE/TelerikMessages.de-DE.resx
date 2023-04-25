@@ -184,7 +184,7 @@
     <value>Schließen</value>
   </data>
   <data name="Dialog_Ok" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
   </data>
   <data name="DropDownList_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
@@ -355,7 +355,7 @@
     <value>Abbrechen</value>
   </data>
   <data name="FileManager_ConfirmDeleteOk" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
   </data>
   <data name="FileManager_ConfirmDeleteText" xml:space="preserve">
     <value>Sind Sie sicher, dass sie diese Datei(en) löschen möchten?</value>
@@ -436,7 +436,7 @@
     <value>Abbrechen</value>
   </data>
   <data name="FileManager_UploadDialogOk" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
   </data>
   <data name="FileManager_UploadDialogTitle" xml:space="preserve">
     <value>Dateien hochladen</value>
@@ -706,7 +706,7 @@
     <value>Abbrechen</value>
   </data>
   <data name="Grid_ConfirmDeleteOk" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
   </data>
   <data name="Grid_ConfirmDeleteText" xml:space="preserve">
     <value>Sind Sie sicher, dass sie den Eintrag löschen möchten?</value>
@@ -805,7 +805,7 @@
     <value>Updaten</value>
   </data>
   <data name="Group_Empty" xml:space="preserve">
-    <value>Sie können eine Spaltenüberschrift ziehen und hier ablegen, um sie nach dieser Spalte zu gruppieren</value>
+    <value>Sie können eine Spaltenüberschrift ziehen und hier ablegen, um sie nach dieser Spalte zu gruppieren.</value>
   </data>
   <data name="MultiSelect_Apply" xml:space="preserve">
     <value>Anwenden</value>
@@ -937,7 +937,7 @@
     <value>Abbrechen</value>
   </data>
   <data name="Scheduler_ConfirmDeleteOk" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
   </data>
   <data name="Scheduler_ConfirmDeleteText" xml:space="preserve">
     <value>Sind Sie sicher, dass sie das Event löschen möchten?</value>
@@ -1027,7 +1027,7 @@
     <value>Wiederkehrenden Termin bearbeiten</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Daily_Interval" xml:space="preserve">
-    <value>Tage(e)</value>
+    <value>Tag(e)</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Daily_RepeatEvery" xml:space="preserve">
     <value>Wiederhole jeden</value>
@@ -1222,7 +1222,7 @@
     <value>Abbrechen</value>
   </data>
   <data name="TreeList_ConfirmDeleteOk" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
   </data>
   <data name="TreeList_ConfirmDeleteText" xml:space="preserve">
     <value>Sind Sie sicher, dass sie den Eintrag löschen möchten?</value>
