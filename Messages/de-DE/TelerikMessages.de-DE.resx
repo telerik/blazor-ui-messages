@@ -1,5 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
   <data name="Aggregate_Average" xml:space="preserve">
     <value>Durchschnitt</value>
   </data>
@@ -57,6 +115,9 @@
   <data name="ColorGradient_AlphaSlider_Label" xml:space="preserve">
     <value>Wert des Alpha-Schiebereglers</value>
   </data>
+  <data name="ColorGradient_AriaLabel" xml:space="preserve">
+    <value>Aktuell ausgewählte Farbe ist {0}</value>
+  </data>
   <data name="ColorGradient_HueSlider_Label" xml:space="preserve">
     <value>Wert des Hue-Schiebereglers</value>
   </data>
@@ -72,8 +133,14 @@
   <data name="ColorHex_Placeholder" xml:space="preserve">
     <value>Hex-Farbe</value>
   </data>
+  <data name="ColorPalette_AriaLabel" xml:space="preserve">
+    <value>Aktuell ausgewählte Farbe ist {0}</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Anwenden</value>
+  </data>
+  <data name="ColorPicker_AriaLabel" xml:space="preserve">
+    <value>Aktuell ausgewählte Farbe ist {0}</value>
   </data>
   <data name="ColorPicker_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
@@ -108,17 +175,32 @@
   <data name="ColumnMenu_Columns" xml:space="preserve">
     <value>Spalten</value>
   </data>
+  <data name="ColumnMenu_GroupColumn" xml:space="preserve">
+    <value>Spalte gruppieren</value>
+  </data>
   <data name="ColumnMenu_Lock" xml:space="preserve">
     <value>Sperren</value>
   </data>
+  <data name="ColumnMenu_ReorderNext" xml:space="preserve">
+    <value>Als nächstes anordnen</value>
+  </data>
+  <data name="ColumnMenu_ReorderPrevious" xml:space="preserve">
+    <value>Als voriges anordnen</value>
+  </data>
   <data name="ColumnMenu_Reset" xml:space="preserve">
     <value>Zurücksetzen</value>
+  </data>
+  <data name="ColumnMenu_SetColumnPosition" xml:space="preserve">
+    <value>Spaltenposition setzen</value>
   </data>
   <data name="ColumnMenu_SortAscending" xml:space="preserve">
     <value>Aufsteigend sortieren</value>
   </data>
   <data name="ColumnMenu_SortDescending" xml:space="preserve">
     <value>Absteigend sortieren</value>
+  </data>
+  <data name="ColumnMenu_UngroupColumn" xml:space="preserve">
+    <value>Gruppierung der Spalte aufheben</value>
   </data>
   <data name="ColumnMenu_Unlock" xml:space="preserve">
     <value>Entsperren</value>
@@ -594,6 +676,12 @@
   <data name="Filter_StringDoesNotContain" xml:space="preserve">
     <value>Enthält nicht</value>
   </data>
+  <data name="Filter_StringDoesNotEndWith" xml:space="preserve">
+    <value>Endet nicht mit</value>
+  </data>
+  <data name="Filter_StringDoesNotStartWith" xml:space="preserve">
+    <value>Beginnt nicht mit</value>
+  </data>
   <data name="Filter_StringEndsWith" xml:space="preserve">
     <value>Endet mit</value>
   </data>
@@ -626,6 +714,9 @@
   </data>
   <data name="Filter_Value" xml:space="preserve">
     <value>Wert</value>
+  </data>
+  <data name="FlatColorPicker_AriaLabel" xml:space="preserve">
+    <value>Aktuell ausgewählte Farbe ist {0}</value>
   </data>
   <data name="Form_Clear" xml:space="preserve">
     <value>Löschen</value>
@@ -923,6 +1014,45 @@
   </data>
   <data name="PdfViewer_ToolBar_ZoomOut" xml:space="preserve">
     <value>Herauszoomen</value>
+  </data>
+  <data name="PivotGridConfiguratorButton_Text" xml:space="preserve">
+    <value>Einstellungen ändern</value>
+  </data>
+  <data name="PivotGridConfigurator_Apply" xml:space="preserve">
+    <value>Anwenden</value>
+  </data>
+  <data name="PivotGridConfigurator_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="PivotGridConfigurator_Columns" xml:space="preserve">
+    <value>Spalten</value>
+  </data>
+  <data name="PivotGridConfigurator_Fields" xml:space="preserve">
+    <value>Felder</value>
+  </data>
+  <data name="PivotGridConfigurator_NoFields" xml:space="preserve">
+    <value>Wählen Sie einige Felder aus, um mit der Einrichtung zu beginnen</value>
+  </data>
+  <data name="PivotGridConfigurator_Rows" xml:space="preserve">
+    <value>Zeilen</value>
+  </data>
+  <data name="PivotGridConfigurator_Settings" xml:space="preserve">
+    <value>Eigenschaften</value>
+  </data>
+  <data name="PivotGridConfigurator_Values" xml:space="preserve">
+    <value>Werte</value>
+  </data>
+  <data name="PivotGrid_GrandTotal" xml:space="preserve">
+    <value>Gesamt Total</value>
+  </data>
+  <data name="PivotGrid_IncludeFields" xml:space="preserve">
+    <value>Felder inkludieren</value>
+  </data>
+  <data name="PivotGrid_TotalValueFormat" xml:space="preserve">
+    <value>Gesamt {0}</value>
+  </data>
+  <data name="PivotGrid_ValueTotalFormat" xml:space="preserve">
+    <value>{0} Gesamt</value>
   </data>
   <data name="Scheduler_AllDay" xml:space="preserve">
     <value>den ganzen Tag</value>
