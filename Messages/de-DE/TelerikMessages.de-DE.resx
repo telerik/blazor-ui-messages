@@ -736,6 +736,24 @@
   <data name="Gantt_DialogClose" xml:space="preserve">
     <value>Schließen</value>
   </data>
+  <data name="Gantt_DialogMaximize" xml:space="preserve">
+    <value>Maximieren</value>
+  </data>
+  <data name="Gantt_DialogMinimize" xml:space="preserve">
+    <value>Minimieren</value>
+  </data>
+  <data name="Gantt_Editor_DependencyAdd" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="Gantt_Editor_DependencyName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Gantt_Editor_DependencyRemove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="Gantt_Editor_DependencyType" xml:space="preserve">
+    <value>Typ</value>
+  </data>
   <data name="Gantt_Editor_EditorTitle" xml:space="preserve">
     <value>Aufgabe</value>
   </data>
@@ -745,14 +763,31 @@
   <data name="Gantt_Editor_EndTimeValueValidationMessage" xml:space="preserve">
     <value>Das Enddatum muss größer sein als das Startdatum.</value>
   </data>
+  <data name="Gantt_Editor_General" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="Gantt_Editor_None" xml:space="preserve">
+    <value>-Keiner-</value>
+  </data>
+  <data name="Gantt_Editor_Other" xml:space="preserve">
+    <value>Andere</value>
+  </data>
+  <data name="Gantt_Editor_Parent" xml:space="preserve">
+    <value>Elternteil</value>
+  </data>
   <data name="Gantt_Editor_PercentComplete" xml:space="preserve">
     <value>Abgeschlossen</value>
+  </data>
+  <data name="Gantt_Editor_Predecessors" xml:space="preserve">
+    <value>Vorgänger</value>
   </data>
   <data name="Gantt_Editor_Start" xml:space="preserve">
     <value>Start</value>
   </data>
   <data name="Gantt_Editor_StartTimeValueValidationMessage" xml:space="preserve">
     <value>Das Startdatum muss kleiner sein als das Enddatum.</value>
+  <data name="Gantt_Editor_Successors" xml:space="preserve">
+    <value>Nachfolger</value>
   </data>
   <data name="Gantt_Editor_Title" xml:space="preserve">
     <value>Titel</value>
@@ -907,6 +942,12 @@
   <data name="MultiSelect_Clear" xml:space="preserve">
     <value>Löschen</value>
   </data>
+  <data name="MultiSelect_ItemsSelected" xml:space="preserve">
+    <value>{0} Elemente ausgewählt</value>
+  </data>
+  <data name="MultiSelect_MoreSelected" xml:space="preserve">
+    <value>{0} weitere ausgewählt</value>
+  </data>
   <data name="MultiSelect_NoData" xml:space="preserve">
     <value>Keine Daten</value>
   </data>
@@ -1029,6 +1070,12 @@
   </data>
   <data name="PivotGridConfigurator_Fields" xml:space="preserve">
     <value>Felder</value>
+  </data>
+  <data name="PivotGridConfigurator_MoveToColumns" xml:space="preserve">
+    <value>zu Spalten verschieben</value>
+  </data>
+  <data name="PivotGridConfigurator_MoveToRows" xml:space="preserve">
+    <value>zu Zeilen verschieben</value>
   </data>
   <data name="PivotGridConfigurator_NoFields" xml:space="preserve">
     <value>Wählen Sie einige Felder aus, um mit der Einrichtung zu beginnen</value>
