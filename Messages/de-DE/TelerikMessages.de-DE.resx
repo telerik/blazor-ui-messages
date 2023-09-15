@@ -786,6 +786,7 @@
   </data>
   <data name="Gantt_Editor_StartTimeValueValidationMessage" xml:space="preserve">
     <value>Das Startdatum muss kleiner sein als das Enddatum.</value>
+  </data>
   <data name="Gantt_Editor_Successors" xml:space="preserve">
     <value>Nachfolger</value>
   </data>
