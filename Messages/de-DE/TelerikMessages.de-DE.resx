@@ -217,6 +217,9 @@
   <data name="ComboBox_Open" xml:space="preserve">
     <value>Öffnen</value>
   </data>
+  <data name="ComboBox_Popup_AriaLabel" xml:space="preserve">
+    <value>Optionsliste</value>
+  </data>
   <data name="DateInput_ParsingErrorMessage" xml:space="preserve">
     <value>Das Datumsformat kann nicht geparst werden. Bitte geben Sie ein gültiges Datum ein.</value>
   </data>
@@ -330,6 +333,9 @@
   </data>
   <data name="Editor_DeleteRow" xml:space="preserve">
     <value>Zeile löschen</value>
+  </data>
+  <data name="Editor_DeleteTable" xml:space="preserve">
+    <value>Tabelle löschen</value>
   </data>
   <data name="Editor_DialogCancel" xml:space="preserve">
     <value>Abbrechen</value>
@@ -934,6 +940,30 @@
   <data name="Group_Empty" xml:space="preserve">
     <value>Sie können eine Spaltenüberschrift ziehen und hier ablegen, um sie nach dieser Spalte zu gruppieren.</value>
   </data>
+  <data name="ListBox_NoData" xml:space="preserve">
+    <value>Keine Daten</value>
+  </data>
+  <data name="ListBoxToolBarTool_MoveDown" xml:space="preserve">
+    <value>Nach unten bewegen</value>
+  </data>
+  <data name="ListBoxToolBarTool_MoveUp" xml:space="preserve">
+    <value>Nach oben bewegen</value>
+  </data>
+  <data name="ListBoxToolBarTool_Remove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferAllFrom" xml:space="preserve">
+    <value>Alles übertragen von</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferAllTo" xml:space="preserve">
+    <value>Alles übertragen an</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferFrom" xml:space="preserve">
+    <value>Übertragen von</value>
+  </data>
+  <data name="ListBoxToolBarTool_TransferTo" xml:space="preserve">
+    <value>Übertragen an</value>
+  </data>
   <data name="MultiSelect_Apply" xml:space="preserve">
     <value>Anwenden</value>
   </data>
@@ -1006,6 +1036,9 @@
   <data name="Pager_WrapperLabel" xml:space="preserve">
     <value>Seitennavigation, Seite {0} von {1}</value>
   </data>
+  <data name="PdfViewer_Document_AriaLabel" xml:space="preserve">
+    <value>Dokumentansichtsfenster</value>
+  </data>
   <data name="PdfViewer_Search_Close" xml:space="preserve">
     <value>Schließen</value>
   </data>
@@ -1023,6 +1056,9 @@
   </data>
   <data name="PdfViewer_Search_PreviousMatch" xml:space="preserve">
     <value>Vorheriger Treffer</value>
+  </data>
+  <data name="PdfViewer_SearchDialog_AriaLabel" xml:space="preserve">
+    <value>Suchdialog</value>
   </data>
   <data name="PdfViewer_ToolBar_Download" xml:space="preserve">
     <value>Download</value>
