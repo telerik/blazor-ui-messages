@@ -281,7 +281,7 @@
     <value>Ziehen Sie Dateien zum Hochladen hierher und legen Sie sie dort ab</value>
   </data>
   <data name="DropZone_Note" xml:space="preserve">
-    <value />
+    <value></value>
   </data>
   <data name="Editor_AddColumnAfter" xml:space="preserve">
     <value>Spalte rechts hinzufügen</value>
@@ -820,11 +820,14 @@
   <data name="Grid_CheckAll" xml:space="preserve">
     <value>Alle anhaken</value>
   </data>
+  <data name="Grid_Columns" xml:space="preserve">
+    <value>Spalten</value>
+  </data>
   <data name="Grid_ColumnSettings" xml:space="preserve">
     <value>Spalteneinstellungen</value>
   </data>
-  <data name="Grid_Columns" xml:space="preserve">
-    <value>Spalten</value>
+  <data name="Grid_Confirmation" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie diesen Datensatz löschen wollen?</value>
   </data>
   <data name="Grid_ConfirmDelete" xml:space="preserve">
     <value>Löschen</value>
@@ -840,9 +843,6 @@
   </data>
   <data name="Grid_ConfirmDeleteTitle" xml:space="preserve">
     <value>Löschen</value>
-  </data>
-  <data name="Grid_Confirmation" xml:space="preserve">
-    <value>Sind Sie sicher, dass Sie diesen Datensatz löschen wollen?</value>
   </data>
   <data name="Grid_Create" xml:space="preserve">
     <value>Neuen Datensatz hinzufügen</value>
@@ -1057,8 +1057,17 @@
   <data name="PdfViewer_ToolBar_ZoomOut" xml:space="preserve">
     <value>Herauszoomen</value>
   </data>
-  <data name="PivotGridConfiguratorButton_Text" xml:space="preserve">
-    <value>Einstellungen ändern</value>
+  <data name="PivotGrid_GrandTotal" xml:space="preserve">
+    <value>Gesamt Total</value>
+  </data>
+  <data name="PivotGrid_IncludeFields" xml:space="preserve">
+    <value>Felder inkludieren</value>
+  </data>
+  <data name="PivotGrid_TotalValueFormat" xml:space="preserve">
+    <value>Gesamt {0}</value>
+  </data>
+  <data name="PivotGrid_ValueTotalFormat" xml:space="preserve">
+    <value>{0} Gesamt</value>
   </data>
   <data name="PivotGridConfigurator_Apply" xml:space="preserve">
     <value>Anwenden</value>
@@ -1090,17 +1099,8 @@
   <data name="PivotGridConfigurator_Values" xml:space="preserve">
     <value>Werte</value>
   </data>
-  <data name="PivotGrid_GrandTotal" xml:space="preserve">
-    <value>Gesamt Total</value>
-  </data>
-  <data name="PivotGrid_IncludeFields" xml:space="preserve">
-    <value>Felder inkludieren</value>
-  </data>
-  <data name="PivotGrid_TotalValueFormat" xml:space="preserve">
-    <value>Gesamt {0}</value>
-  </data>
-  <data name="PivotGrid_ValueTotalFormat" xml:space="preserve">
-    <value>{0} Gesamt</value>
+  <data name="PivotGridConfiguratorButton_Text" xml:space="preserve">
+    <value>Einstellungen ändern</value>
   </data>
   <data name="Scheduler_AllDay" xml:space="preserve">
     <value>den ganzen Tag</value>
@@ -1191,18 +1191,6 @@
   </data>
   <data name="Scheduler_Recurrence_DeleteWindowTitle" xml:space="preserve">
     <value>Wiederkehrenden Termin löschen</value>
-  </data>
-  <data name="Scheduler_Recurrence_EditRecurring" xml:space="preserve">
-    <value>Möchten Sie nur dieses Ereignis oder die gesamte Serie bearbeiten?</value>
-  </data>
-  <data name="Scheduler_Recurrence_EditWindowOccurrence" xml:space="preserve">
-    <value>Aktuelles Vorkommen bearbeiten</value>
-  </data>
-  <data name="Scheduler_Recurrence_EditWindowSeries" xml:space="preserve">
-    <value>Serie bearbeiten</value>
-  </data>
-  <data name="Scheduler_Recurrence_EditWindowTitle" xml:space="preserve">
-    <value>Wiederkehrenden Termin bearbeiten</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Daily_Interval" xml:space="preserve">
     <value>Tag(e)</value>
@@ -1296,6 +1284,18 @@
   </data>
   <data name="Scheduler_Recurrence_Editor_Yearly_RepeatOn" xml:space="preserve">
     <value>Wiederhole am</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditRecurring" xml:space="preserve">
+    <value>Möchten Sie nur dieses Ereignis oder die gesamte Serie bearbeiten?</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowOccurrence" xml:space="preserve">
+    <value>Aktuelles Vorkommen bearbeiten</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowSeries" xml:space="preserve">
+    <value>Serie bearbeiten</value>
+  </data>
+  <data name="Scheduler_Recurrence_EditWindowTitle" xml:space="preserve">
+    <value>Wiederkehrenden Termin bearbeiten</value>
   </data>
   <data name="Scheduler_Save" xml:space="preserve">
     <value>Speichern</value>
@@ -1477,20 +1477,20 @@
   <data name="Upload_Retry" xml:space="preserve">
     <value>Wiederholen</value>
   </data>
-  <data name="Upload_SelectFiles" xml:space="preserve">
-    <value>Dateien auswählen...</value>
-  </data>
   <data name="Upload_SelectedFilesAriaLabel" xml:space="preserve">
     <value>{0} Datei(en) {1}. Drücken Sie die Pfeiltaste nach unten, um zu navigieren.</value>
   </data>
   <data name="Upload_SelectedState" xml:space="preserve">
     <value>ausgewählt</value>
   </data>
-  <data name="Upload_UploadFiles" xml:space="preserve">
-    <value>Hochladen</value>
+  <data name="Upload_SelectFiles" xml:space="preserve">
+    <value>Dateien auswählen...</value>
   </data>
   <data name="Upload_UploadedState" xml:space="preserve">
     <value>hochgeladen</value>
+  </data>
+  <data name="Upload_UploadFiles" xml:space="preserve">
+    <value>Hochladen</value>
   </data>
   <data name="Validation_InvalidField" xml:space="preserve">
     <value>{0} ist nicht gültig.</value>
