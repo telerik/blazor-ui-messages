@@ -73,6 +73,30 @@
   <data name="Aggregate_Sum" xml:space="preserve">
     <value>Summe</value>
   </data>
+  <data name="AIPrompt_OutputView_ButtonText" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="AIPrompt_OutputView_Copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="AIPrompt_OutputView_PromptTitle" xml:space="preserve">
+    <value>Generieren mit KI:</value>
+  </data>
+  <data name="AIPrompt_OutputView_Retry" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="AIPrompt_PromptView_ButtonText" xml:space="preserve">
+    <value>Fragen Sie die KI</value>
+  </data>
+  <data name="AIPrompt_PromptView_Generate" xml:space="preserve">
+    <value>Generieren</value>
+  </data>
+  <data name="AIPrompt_PromptView_PromptPlaceholder" xml:space="preserve">
+    <value>Fragen oder generieren Sie Inhalte mit KI</value>
+  </data>
+  <data name="AIPrompt_PromptView_SuggestionHeader" xml:space="preserve">
+    <value>Schnelle Vorschläge</value>
+  </data>
   <data name="AutoComplete_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
@@ -613,6 +637,9 @@
   <data name="Filter_EnumIsNull" xml:space="preserve">
     <value>Ist Null</value>
   </data>
+  <data name="Filter_Expression_Options" xml:space="preserve">
+    <value>Filteroperatoren</value>
+  </data>
   <data name="Filter_Filter" xml:space="preserve">
     <value>Filter</value>
   </data>
@@ -938,7 +965,7 @@
     <value>Updaten</value>
   </data>
   <data name="Group_Empty" xml:space="preserve">
-    <value>Sie können eine Spaltenüberschrift ziehen und hier ablegen, um sie nach dieser Spalte zu gruppieren.</value>
+    <value>Sie können eine Spaltenüberschrift ziehen und hier ablegen, um sie nach dieser Spalte zu gruppieren</value>
   </data>
   <data name="ListBox_NoData" xml:space="preserve">
     <value>Keine Daten</value>
@@ -981,6 +1008,9 @@
   </data>
   <data name="MultiSelect_NoData" xml:space="preserve">
     <value>Keine Daten</value>
+  </data>
+  <data name="MultiSelect_Open" xml:space="preserve">
+    <value>Öffnen</value>
   </data>
   <data name="NumericTextBox_DecreaseValue" xml:space="preserve">
     <value>Wert verringern</value>
@@ -1138,6 +1168,9 @@
   <data name="PivotGridConfiguratorButton_Text" xml:space="preserve">
     <value>Einstellungen ändern</value>
   </data>
+  <data name="PopupList_AriaLabel" xml:space="preserve">
+    <value>Liste an Optionen</value>
+  </data>
   <data name="Scheduler_AllDay" xml:space="preserve">
     <value>den ganzen Tag</value>
   </data>
@@ -1229,13 +1262,13 @@
     <value>Wiederkehrenden Termin löschen</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Daily_Interval" xml:space="preserve">
-    <value>Tag(e)</value>
+    <value> Tag(e)</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Daily_RepeatEvery" xml:space="preserve">
     <value>Wiederhole jeden</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_End_After" xml:space="preserve">
-    <value>Nach</value>
+    <value>Nach </value>
   </data>
   <data name="Scheduler_Recurrence_Editor_End_Label" xml:space="preserve">
     <value>Ende</value>
@@ -1244,10 +1277,10 @@
     <value>Niemals</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_End_Occurrence" xml:space="preserve">
-    <value>Vorkommen</value>
+    <value> Vorkommen</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_End_On" xml:space="preserve">
-    <value>An</value>
+    <value>An </value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Frequencies_Daily" xml:space="preserve">
     <value>Täglich</value>
@@ -1538,7 +1571,7 @@
     <value>Nächstes</value>
   </data>
   <data name="Wizard_Pager" xml:space="preserve">
-    <value>Schritt {0} von {1}</value>
+    <value>Schritt {0} von {1} </value>
   </data>
   <data name="Wizard_Previous" xml:space="preserve">
     <value>Vorheriges</value>
