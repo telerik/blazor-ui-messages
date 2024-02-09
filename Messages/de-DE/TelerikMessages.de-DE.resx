@@ -1277,7 +1277,7 @@
     <value>Niemals</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_End_Occurrence" xml:space="preserve">
-    <value> Vorkommen</value>
+    <value>Vorkommen</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_End_On" xml:space="preserve">
     <value>An </value>
