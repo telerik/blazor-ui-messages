@@ -1571,7 +1571,7 @@
     <value>Nächstes</value>
   </data>
   <data name="Wizard_Pager" xml:space="preserve">
-    <value>Schritt {0} von {1} </value>
+    <value>Schritt {0} von {1}</value>
   </data>
   <data name="Wizard_Previous" xml:space="preserve">
     <value>Vorheriges</value>
