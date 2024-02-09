@@ -1262,7 +1262,7 @@
     <value>Wiederkehrenden Termin löschen</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Daily_Interval" xml:space="preserve">
-    <value> Tag(e)</value>
+    <value>Tag(e)</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_Daily_RepeatEvery" xml:space="preserve">
     <value>Wiederhole jeden</value>
