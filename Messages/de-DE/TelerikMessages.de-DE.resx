@@ -1268,7 +1268,7 @@
     <value>Wiederhole jeden</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_End_After" xml:space="preserve">
-    <value>Nach </value>
+    <value>Nach</value>
   </data>
   <data name="Scheduler_Recurrence_Editor_End_Label" xml:space="preserve">
     <value>Ende</value>
