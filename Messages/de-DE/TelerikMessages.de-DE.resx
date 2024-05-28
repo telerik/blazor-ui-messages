@@ -1448,7 +1448,7 @@
     <value>Oben ausrichten</value>
   </data>
   <data name="Spreadsheet_BackgroundColor" xml:space="preserve">
-    <value>Hintergrund Farbe</value>
+    <value>Hintergrundfarbe</value>
   </data>
   <data name="Spreadsheet_Bold" xml:space="preserve">
     <value>Fett</value>
