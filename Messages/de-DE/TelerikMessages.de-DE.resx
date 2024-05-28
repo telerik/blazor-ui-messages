@@ -244,6 +244,9 @@
   <data name="ComboBox_Popup_AriaLabel" xml:space="preserve">
     <value>Optionsliste</value>
   </data>
+  <data name="DateInput_Clear" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
   <data name="DateInput_ParsingErrorMessage" xml:space="preserve">
     <value>Das Datumsformat kann nicht geparst werden. Bitte geben Sie ein gültiges Datum ein.</value>
   </data>
@@ -991,6 +994,9 @@
   <data name="ListBoxToolBarTool_TransferTo" xml:space="preserve">
     <value>Übertragen an</value>
   </data>
+  <data name="MaskedTextBox_Clear" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
   <data name="MultiSelect_Apply" xml:space="preserve">
     <value>Anwenden</value>
   </data>
@@ -1011,6 +1017,9 @@
   </data>
   <data name="MultiSelect_Open" xml:space="preserve">
     <value>Öffnen</value>
+  </data>
+  <data name="NumericTextBox_Clear" xml:space="preserve">
+    <value>Löschen</value>
   </data>
   <data name="NumericTextBox_DecreaseValue" xml:space="preserve">
     <value>Wert verringern</value>
@@ -1068,6 +1077,9 @@
   </data>
   <data name="PdfViewer_Document_AriaLabel" xml:space="preserve">
     <value>Dokumentansichtsfenster</value>
+  </data>
+  <data name="PdfViewer_DropZone_Hint" xml:space="preserve">
+    <value>Ziehen Sie Dateien zum Hochladen hierher und legen Sie sie dort ab</value>
   </data>
   <data name="PdfViewer_Search_Close" xml:space="preserve">
     <value>Schließen</value>
@@ -1402,6 +1414,296 @@
   <data name="SplitButton_Open" xml:space="preserve">
     <value>Öffnen</value>
   </data>
+  <data name="Spreadsheet_AddColumnLeft" xml:space="preserve">
+    <value>Spalte links hinzufügen</value>
+  </data>
+  <data name="Spreadsheet_AddColumnRight" xml:space="preserve">
+    <value>Spalte rechts hinzufügen</value>
+  </data>
+  <data name="Spreadsheet_AddRowAbove" xml:space="preserve">
+    <value>Zeile oben hinzufügen</value>
+  </data>
+  <data name="Spreadsheet_AddRowBelow" xml:space="preserve">
+    <value>Zeile unten hinzufügen</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Unten ausrichten</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>Zentriert ausrichten</value>
+  </data>
+  <data name="Spreadsheet_AlignJustify" xml:space="preserve">
+    <value>Zentriert ausrichten</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Links ausrichten</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Zentriert ausrichten</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Rechts ausrichten</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Oben ausrichten</value>
+  </data>
+  <data name="Spreadsheet_BackgroundColor" xml:space="preserve">
+    <value>Hintergrund Farbe</value>
+  </data>
+  <data name="Spreadsheet_Bold" xml:space="preserve">
+    <value>Fett</value>
+  </data>
+  <data name="Spreadsheet_Copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="Spreadsheet_Cut" xml:space="preserve">
+    <value>Ausschneiden</value>
+  </data>
+  <data name="Spreadsheet_DecreaseDecimal" xml:space="preserve">
+    <value>Dezimalstelle reduzieren</value>
+  </data>
+  <data name="Spreadsheet_DefaultDownloadFileName" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Spreadsheet_DefaultSheetName" xml:space="preserve">
+    <value>Blatt</value>
+  </data>
+  <data name="Spreadsheet_DeleteColumn" xml:space="preserve">
+    <value>Spalte löschen</value>
+  </data>
+  <data name="Spreadsheet_DeleteImage" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Spreadsheet_DeleteRow" xml:space="preserve">
+    <value>Zeile löschen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorApplyButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorCloseButtonText" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorText" xml:space="preserve">
+    <value>&lt;p&gt;Um diese Aktion durchzuführen braucht diese Seite Zugriff auf die Zwischenablage.&lt;/p&gt;
+&lt;p&gt;Gehen Sie in Ihre Browser Sicherheitseinstellungen und erlauben Sie den Zugriff auf die Zwischenablage für diese Seite.&lt;/p&gt;
+&lt;p&gt;Alternativ verwenden Sie diese Tastenkürzel:&lt;/p&gt;
+&lt;div&gt;Ausschneiden = Strg/Cmd + X&lt;/div&gt;
+&lt;div&gt;Kopieren = Strg/Cmd + C&lt;/div&gt;
+&lt;div&gt;Einfügen = Strg/Cmd + V&lt;/div&gt;</value>
+  </data>
+  <data name="Spreadsheet_Dialog_ClipboardErrorTitle" xml:space="preserve">
+    <value>Kein Zugriff auf die Zwischenablage</value>
+  </data>
+  <data name="Spreadsheet_Dialog_Close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetApplyButtonText" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetCancelButtonText" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetText" xml:space="preserve">
+    <value>Die Daten des Blattes werden gelöscht. Möchten Sie fortfahren?</value>
+  </data>
+  <data name="Spreadsheet_Dialog_DeleteSheetTitle" xml:space="preserve">
+    <value>Blatt löschen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkApplyButtonText" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkCancelButtonText" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkInputPlaceholderText" xml:space="preserve">
+    <value>Link Text</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkLabelText" xml:space="preserve">
+    <value>Link:</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkRemoveButtonText" xml:space="preserve">
+    <value>Link entfernen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkRequiredFieldText" xml:space="preserve">
+    <value>Der Link darf nicht leer sein.</value>
+  </data>
+  <data name="Spreadsheet_Dialog_InsertLinkTitle" xml:space="preserve">
+    <value>Link einfügen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetApplyButtonText" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetButtonText" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetCancelButtonText" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetErrorText" xml:space="preserve">
+    <value>Es existiert bereits ein Blatt mit diesem Namen. Bitte geben Sie einen anderen Namen ein.</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetLabelText" xml:space="preserve">
+    <value>Blatt umbenennen zu:</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetPlaceholderText" xml:space="preserve">
+    <value>Blatt Name</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetRequiredFieldText" xml:space="preserve">
+    <value>Blatt Name darf nicht leer sein.</value>
+  </data>
+  <data name="Spreadsheet_Dialog_RenameSheetTitle" xml:space="preserve">
+    <value>Blatt umbenennen</value>
+  </data>
+  <data name="Spreadsheet_DownloadFile" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Spreadsheet_FontFamily" xml:space="preserve">
+    <value>Schriftart</value>
+  </data>
+  <data name="Spreadsheet_FontSize" xml:space="preserve">
+    <value>Schriftgröße</value>
+  </data>
+  <data name="Spreadsheet_FormulaInput" xml:space="preserve">
+    <value>Formel Eingabe</value>
+  </data>
+  <data name="Spreadsheet_GridLines" xml:space="preserve">
+    <value>Grid Linien umschalten</value>
+  </data>
+  <data name="Spreadsheet_HorizontalAlign" xml:space="preserve">
+    <value>Horizontal ausrichten</value>
+  </data>
+  <data name="Spreadsheet_IncreaseDecimal" xml:space="preserve">
+    <value>Dezimalstelle erhöhen</value>
+  </data>
+  <data name="Spreadsheet_InsertImage" xml:space="preserve">
+    <value>Bild einfügen</value>
+  </data>
+  <data name="Spreadsheet_InsertLink" xml:space="preserve">
+    <value>Link einfügen</value>
+  </data>
+  <data name="Spreadsheet_Italic" xml:space="preserve">
+    <value>Kursiv</value>
+  </data>
+  <data name="Spreadsheet_MergeAllCells" xml:space="preserve">
+    <value>Alle zusammenführen</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Zellen zusammenführen</value>
+  </data>
+  <data name="Spreadsheet_MergeCellsHorizontally" xml:space="preserve">
+    <value>Horizontal zusammenführen</value>
+  </data>
+  <data name="Spreadsheet_MergeCellsVertically" xml:space="preserve">
+    <value>Vertikal zusammenführen</value>
+  </data>
+  <data name="Spreadsheet_NameBox" xml:space="preserve">
+    <value>Box Name</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Zahlenformat</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatAutomatic" xml:space="preserve">
+    <value>Automatisch</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatCurrency" xml:space="preserve">
+    <value>Währung</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatDateTime" xml:space="preserve">
+    <value>Datum Uhrzeit</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatDuration" xml:space="preserve">
+    <value>Dauer</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatFinancial" xml:space="preserve">
+    <value>Finanz</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatNumber" xml:space="preserve">
+    <value>Zahl</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatPercentage" xml:space="preserve">
+    <value>Prozent</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatText" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Spreadsheet_NumberFormatTime" xml:space="preserve">
+    <value>Uhrzeit</value>
+  </data>
+  <data name="Spreadsheet_OpenFile" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="Spreadsheet_Paste" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="Spreadsheet_Redo" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="Spreadsheet_SendImageToBack" xml:space="preserve">
+    <value>Hintergrund</value>
+  </data>
+  <data name="Spreadsheet_SendImageToFront" xml:space="preserve">
+    <value>Vordergrund</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_AddSheet" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_AllSheets" xml:space="preserve">
+    <value>Alle Blätter</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_DeleteSheet" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_DuplicateSheet" xml:space="preserve">
+    <value>Duplizieren</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_HideSheet" xml:space="preserve">
+    <value>Verstecken</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_MoveSheetLeft" xml:space="preserve">
+    <value>Nach links verschieben</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_MoveSheetRight" xml:space="preserve">
+    <value>Nach rechts verschieben</value>
+  </data>
+  <data name="Spreadsheet_SheetsBar_RenameSheetButtonText" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="Spreadsheet_TextColor" xml:space="preserve">
+    <value>Text Farbe</value>
+  </data>
+  <data name="Spreadsheet_TextWrap" xml:space="preserve">
+    <value>Text Umbruch</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_FileMenu" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_FormatMenu" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_HomeMenu" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_InsertMenu" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="Spreadsheet_ToolBar_ViewMenu" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="Spreadsheet_Underline" xml:space="preserve">
+    <value>Unterstreichen</value>
+  </data>
+  <data name="Spreadsheet_Undo" xml:space="preserve">
+    <value>Rückgängig</value>
+  </data>
+  <data name="Spreadsheet_UnmergeCells" xml:space="preserve">
+    <value>Trennen</value>
+  </data>
+  <data name="Spreadsheet_VerticalAlign" xml:space="preserve">
+    <value>Vertikal ausrichten</value>
+  </data>
   <data name="Switch_OffLabel" xml:space="preserve">
     <value>Aus</value>
   </data>
@@ -1413,6 +1715,9 @@
   </data>
   <data name="TabStrip_ShowPreviousTabs" xml:space="preserve">
     <value>Vorherige Tabs anzeigen</value>
+  </data>
+  <data name="TextBox_Clear" xml:space="preserve">
+    <value>Löschen</value>
   </data>
   <data name="TimePicker_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
