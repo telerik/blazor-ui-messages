@@ -130,6 +130,9 @@
   <data name="Carousel_Previous" xml:space="preserve">
     <value>Vorheriges</value>
   </data>
+  <data name="Chart_NoData" xml:space="preserve">
+    <value>Keine Daten</value>
+  </data>
   <data name="ColorAlpha_Label" xml:space="preserve">
     <value>A</value>
   </data>
@@ -1075,6 +1078,30 @@
   <data name="Pager_WrapperLabel" xml:space="preserve">
     <value>Seitennavigation, Seite {0} von {1}</value>
   </data>
+  <data name="PdfViewer_Annotations_Color" xml:space="preserve">
+    <value>Farbe</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDeleteDialogText" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie die Anmerkung löschen möchten?</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDeleteDialogTitle" xml:space="preserve">
+    <value>Anmerkung löschen</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDialogCancelButtonText" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="PdfViewer_Annotations_ConfirmDialogOkButtonText" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="PdfViewer_Annotations_FontSize" xml:space="preserve">
+    <value>Schriftgröße</value>
+  </data>
+  <data name="PdfViewer_Annotations_FreeTextEditorPlaceholder" xml:space="preserve">
+    <value>Beginnen Sie mit der Eingabe</value>
+  </data>
+  <data name="PdfViewer_Annotations_TextStyle" xml:space="preserve">
+    <value>Textstil</value>
+  </data>
   <data name="PdfViewer_Document_AriaLabel" xml:space="preserve">
     <value>Dokumentansichtsfenster</value>
   </data>
@@ -1102,8 +1129,20 @@
   <data name="PdfViewer_SearchDialog_AriaLabel" xml:space="preserve">
     <value>Suchdialog</value>
   </data>
+  <data name="PdfViewer_ToolBar_Annotations" xml:space="preserve">
+    <value>Anmerkungen</value>
+  </data>
   <data name="PdfViewer_ToolBar_Download" xml:space="preserve">
     <value>Download</value>
+  </data>
+  <data name="PdfViewer_ToolBar_FreeText" xml:space="preserve">
+    <value>Freitext</value>
+  </data>
+  <data name="PdfViewer_ToolBar_HideAnnotations" xml:space="preserve">
+    <value>Verstecken</value>
+  </data>
+  <data name="PdfViewer_ToolBar_Highlight" xml:space="preserve">
+    <value>Hervorheben</value>
   </data>
   <data name="PdfViewer_ToolBar_Open" xml:space="preserve">
     <value>Öffnen</value>
@@ -1183,6 +1222,9 @@
   <data name="PopupList_AriaLabel" xml:space="preserve">
     <value>Liste an Optionen</value>
   </data>
+  <data name="Scheduler_Agenda" xml:space="preserve">
+    <value>Tagesordnung</value>
+  </data>
   <data name="Scheduler_AllDay" xml:space="preserve">
     <value>den ganzen Tag</value>
   </data>
@@ -1203,6 +1245,9 @@
   </data>
   <data name="Scheduler_ConfirmDeleteTitle" xml:space="preserve">
     <value>Löschen</value>
+  </data>
+  <data name="Scheduler_Date_Column_Title" xml:space="preserve">
+    <value>Datum</value>
   </data>
   <data name="Scheduler_Day" xml:space="preserve">
     <value>Tag</value>
@@ -1249,6 +1294,9 @@
   <data name="Scheduler_Editor_TitleRequiredValidationMessage" xml:space="preserve">
     <value>Titel ist erforderlich.</value>
   </data>
+  <data name="Scheduler_Event_Column_Title" xml:space="preserve">
+    <value>Ereignis</value>
+  </data>
   <data name="Scheduler_Month" xml:space="preserve">
     <value>Monat</value>
   </data>
@@ -1257,6 +1305,9 @@
   </data>
   <data name="Scheduler_Next" xml:space="preserve">
     <value>Nächstes</value>
+  </data>
+  <data name="Scheduler_No_Events_Text" xml:space="preserve">
+    <value>keine Ereignisse</value>
   </data>
   <data name="Scheduler_Previous" xml:space="preserve">
     <value>Vorheriges</value>
@@ -1386,6 +1437,9 @@
   </data>
   <data name="Scheduler_ShowWorkDay" xml:space="preserve">
     <value>Geschäftszeiten anzeigen</value>
+  </data>
+  <data name="Scheduler_Time_Column_Title" xml:space="preserve">
+    <value>Zeit</value>
   </data>
   <data name="Scheduler_Timeline" xml:space="preserve">
     <value>Zeitleiste</value>
