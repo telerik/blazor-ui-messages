@@ -202,6 +202,12 @@
   <data name="ColumnMenu_Columns" xml:space="preserve">
     <value>Spalten</value>
   </data>
+  <data name="ColumnMenu_FilterBy" xml:space="preserve">
+    <value>Filtern nach</value>
+  </data>
+  <data name="ColumnMenu_GroupBy" xml:space="preserve">
+    <value>Gruppieren nach</value>
+  </data>
   <data name="ColumnMenu_GroupColumn" xml:space="preserve">
     <value>Spalte gruppieren</value>
   </data>
@@ -222,6 +228,9 @@
   </data>
   <data name="ColumnMenu_SortAscending" xml:space="preserve">
     <value>Aufsteigend sortieren</value>
+  </data>
+  <data name="ColumnMenu_SortBy" xml:space="preserve">
+    <value>Sortieren nach</value>
   </data>
   <data name="ColumnMenu_SortDescending" xml:space="preserve">
     <value>Absteigend sortieren</value>
@@ -330,6 +339,45 @@
   </data>
   <data name="Editor_AddRowBelow" xml:space="preserve">
     <value>Zeile darunter hinzufügen</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Fix" xml:space="preserve">
+  <value>Korrigiere eventuelle Fehler im folgenden Text, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Length_Longer" xml:space="preserve">
+    <value>Verlängere den folgenden Text, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Length_Shorter" xml:space="preserve">
+    <value>Verkürze den folgenden Text, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Polish" xml:space="preserve">
+    <value>Verbessere das Format des folgenden Textes, um die Lesbarkeit und Einheitlichkeit zu erhöhen, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Rewrite" xml:space="preserve">
+    <value>Formuliere den folgenden Text um, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Casual" xml:space="preserve">
+    <value>Ändere den Ton des folgenden Textes, sodass er informeller wirkt, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Formal" xml:space="preserve">
+    <value>Ändere den Ton des folgenden Textes, sodass er formeller wirkt, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Friendly" xml:space="preserve">
+    <value>Ändere den Ton des folgenden Textes, sodass er freundlicher wirkt, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Tone_Neutral" xml:space="preserve">
+    <value>Ändere den Ton des folgenden Textes, sodass er neutraler wirkt, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Translate_English" xml:space="preserve">
+    <value>Übersetze den folgenden Text ins Englische, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Translate_German" xml:space="preserve">
+    <value>Übersetze den folgenden Text ins Deutsche, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Command_Translate_Spanish" xml:space="preserve">
+    <value>Übersetze den folgenden Text ins Spanische, ohne dessen ursprüngliche Bedeutung und Absicht zu verändern. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_Default_System_Prompt" xml:space="preserve">
+    <value>Du bist ein hilfreicher Assistent, der Benutzer beim Schreiben und Bearbeiten von Inhalten unterstützt. Vermeide es, über schädliche, illegale oder unangemessene Themen zu sprechen. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
   </data>
   <data name="Editor_AlignCenter" xml:space="preserve">
     <value>Text zentrieren</value>
@@ -606,6 +654,9 @@
   </data>
   <data name="Filter_Clear" xml:space="preserve">
     <value>Löschen</value>
+  </data>
+  <data name="Filter_Clear_All" xml:space="preserve">
+    <value>Alle Filter löschen</value>
   </data>
   <data name="Filter_DateIsEqualTo" xml:space="preserve">
     <value>Ist gleich</value>
@@ -970,6 +1021,9 @@
   <data name="Grid_Update" xml:space="preserve">
     <value>Updaten</value>
   </data>
+  <data name="Group_Clear_All" xml:space="preserve">
+    <value>Gruppierung aufheben</value>
+  </data>
   <data name="Group_Empty" xml:space="preserve">
     <value>Sie können eine Spaltenüberschrift ziehen und hier ablegen, um sie nach dieser Spalte zu gruppieren</value>
   </data>
@@ -1020,6 +1074,9 @@
   </data>
   <data name="MultiSelect_Open" xml:space="preserve">
     <value>Öffnen</value>
+  </data>
+  <data name="MultiSelect_Use" xml:space="preserve">
+    <value>Anwenden</value>
   </data>
   <data name="NumericTextBox_Clear" xml:space="preserve">
     <value>Löschen</value>
@@ -1465,6 +1522,9 @@
   <data name="Slider_Increase" xml:space="preserve">
     <value>Erhöhen</value>
   </data>
+  <data name="Sort_Clear_All" xml:space="preserve">
+    <value>Sortierung aufheben</value>
+  </data>
   <data name="SplitButton_Open" xml:space="preserve">
     <value>Öffnen</value>
   </data>
@@ -1899,8 +1959,14 @@
   <data name="Upload_InvalidMinFileSize" xml:space="preserve">
     <value>Dateigröße zu klein.</value>
   </data>
+  <data name="Upload_Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
   <data name="Upload_Remove" xml:space="preserve">
     <value>Entfernen</value>
+  </data>
+  <data name="Upload_Resume" xml:space="preserve">
+    <value>Fortsetzen</value>
   </data>
   <data name="Upload_Retry" xml:space="preserve">
     <value>Wiederholen</value>
@@ -1924,15 +1990,15 @@
     <value>{0} ist nicht gültig.</value>
   </data>
   <data name="Wizard_Done" xml:space="preserve">
-    <value>Fertig</value>
+    <value>Fertigstellen</value>
   </data>
   <data name="Wizard_Next" xml:space="preserve">
-    <value>Nächstes</value>
+    <value>Weiter</value>
   </data>
   <data name="Wizard_Pager" xml:space="preserve">
     <value>Schritt {0} von {1}</value>
   </data>
   <data name="Wizard_Previous" xml:space="preserve">
-    <value>Vorheriges</value>
+    <value>Zurück</value>
   </data>
 </root>

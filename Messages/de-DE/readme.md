@@ -1,6 +1,6 @@
 # Current version
 
-The [resource file](./TelerikMessages.de-DE.resx) contains all German translation resources (*.resx) for the [Telerik.Ui.for.Blazor](https://docs.telerik.com/blazor-ui/introduction) version **8.1.1**.
+The [resource file](./TelerikMessages.de-DE.resx) contains all German translation resources (*.resx) for the [Telerik.Ui.for.Blazor](https://docs.telerik.com/blazor-ui/introduction) version **9.1.0**.
 
 # Additional infos
 
