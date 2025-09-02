@@ -79,6 +79,9 @@
   <data name="AIPrompt_OutputView_Copy" xml:space="preserve">
     <value>Kopieren</value>
   </data>
+  <data name="AIPrompt_OutputView_Discard" xml:space="preserve">
+    <value>Verwerfen</value>
+  </data>
   <data name="AIPrompt_OutputView_PromptTitle" xml:space="preserve">
     <value>Generieren mit KI:</value>
   </data>
@@ -378,6 +381,12 @@
   </data>
   <data name="Editor_AI_Prompt_Default_System_Prompt" xml:space="preserve">
     <value>Du bist ein hilfreicher Assistent, der Benutzer beim Schreiben und Bearbeiten von Inhalten unterstützt. Vermeide es, über schädliche, illegale oder unangemessene Themen zu sprechen. Gib eine einfache Zeichenkette aus. Gib kein HTML aus!</value>
+  </data>
+  <data name="Editor_AI_Prompt_OutputView_Insert" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="Editor_AI_Prompt_OutputView_Replace" xml:space="preserve">
+    <value>Ersetzen</value>
   </data>
   <data name="Editor_AlignCenter" xml:space="preserve">
     <value>Text zentrieren</value>
@@ -946,6 +955,12 @@
   <data name="Grid_Delete" xml:space="preserve">
     <value>Löschen</value>
   </data>
+  <data name="Grid_Detail_Template_Collapse" xml:space="preserve">
+    <value>Details ausblenden</value>
+  </data>
+  <data name="Grid_Detail_Template_Expand" xml:space="preserve">
+    <value>Details erweitern</value>
+  </data>
   <data name="Grid_DialogClose" xml:space="preserve">
     <value>Schließen</value>
   </data>
@@ -1011,6 +1026,12 @@
   </data>
   <data name="Grid_SortedDescending" xml:space="preserve">
     <value>In absteigender Reihenfolge sortiert</value>
+  </data>
+  <data name="Grid_ToolBar_AITool_AIAssistant_Apply" xml:space="preserve">
+    <value>Anwenden</value>
+  </data>
+  <data name="Grid_ToolBar_AITool_AIAssistant_Title" xml:space="preserve">
+    <value>KI-Assistent</value>
   </data>
   <data name="Grid_ToolbarLabel" xml:space="preserve">
     <value>Symbolleiste</value>
